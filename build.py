@@ -18,7 +18,7 @@ PAGES = [
          title="US 2026 midterms: results and forecast",
          datasets=["summary", "seatbar", "control", "seat_dist", "senate_races", "governor_races", "house_races",
                    "senate_open", "governor_open", "watch", "latest", "calls", "params", "sources"],
-         foot="Snapshot of race calls checked to 07:50 ET on 4 November 2026. Races not called by then are filled in by the 3 November forecast. Not updated since."),
+         foot="Snapshot of race calls checked to the evening of 9 November 2026 (ET). Races not called by then are filled in by the 3 November forecast."),
 ]
 
 

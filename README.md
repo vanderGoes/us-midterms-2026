@@ -5,7 +5,7 @@ These are two archived dashboards for the US elections of 3 November 2026: the S
 | Page | What it shows | As of |
 |---|---|---|
 | [forecast.html](forecast.html) | A polling-based forecast for every Senate, governor and competitive House race | Polls published up to 2 November 2026 |
-| [results.html](results.html) | Races called by news organizations; the forecast fills in the races not yet called | Calls checked up to 07:50 ET, 4 November 2026 |
+| [results.html](results.html) | Races called by news organizations; the forecast fills in the races not yet called | Calls checked up to the evening of 9 November 2026 (ET) |
 
 Both pages are snapshots. They are not updated, and the results page is not an official result. For final results, use the state certifications or the Associated Press.
 
@@ -13,7 +13,7 @@ Both pages are snapshots. They are not updated, and the results page is not an o
 
 - **Independence.** This is an independent project. It has no funding from, and no affiliation with, any party, campaign, candidate or advocacy group. It does not endorse anyone. Blue and red are the conventional US party colors and carry no other meaning.
 - **What counts as a call.** A race is counted once the AP, or at least two of NBC, CNN, Fox News, ABC and CBS, has projected a winner. Calls reported by one outlet only are listed in `model/now/pending.csv` and are not counted. Every call is logged with its source URL in `model/now/calls.csv`.
-- **Sources.** Every source used is listed on each page under "How this works" and in the `sources.json` files under `model/`. Some AP calls were taken from outlets that republish them (CNBC, Fox News, States Newsroom, PollsterGraph); the call log gives the URL for each.
+- **Sources.** Every source used is listed on each page under "How this works" and in the `sources.json` files under `model/`. Some AP calls were taken from outlets that republish them (CNBC, Fox News, States Newsroom, PollsterGraph); the call log gives the URL for each. For most House races called after 4 November, the AP call is inferred: the race was missing from the AP's list of uncalled races on the evening of 9 November. The winner's party for those races comes from CBS's list of seats that changed party, and the call log marks each race where this applies.
 - **Corrections.** If you find an error, please open an issue and include a source. Corrections are noted in the commit history.
 - **Use of AI.** The model, pages and call log were built with the help of Claude (Anthropic). The code and inputs are published here so the results can be checked and reproduced.
 
