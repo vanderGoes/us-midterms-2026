@@ -1,0 +1,340 @@
+<meta name="dash-one-writer">
+<link rel="stylesheet" href="style.css">
+<div class="mt">
+<header id="top">
+  <h1 class="mt-title">US 2026 midterms forecast</h1>
+  <p class="mt-take">Polls through <b data-draw="v" data-source="params" data-field="value" data-where="key=cutoff" data-fmt="date">—</b> give Democrats a <b data-draw="v" data-source="control" data-field="prob" data-where="chamber=senate&amp;outcome=D" data-fmt="pct">—</b> chance of a Senate majority and a <b data-draw="v" data-source="control" data-field="prob" data-where="chamber=house&amp;outcome=D" data-fmt="pct">—</b> chance of a House majority. Expected result: Senate <b data-draw="v" data-source="summary" data-field="central" data-where="chamber=senate&amp;party=D" data-fmt="int">—</b> D, <b data-draw="v" data-source="summary" data-field="central" data-where="chamber=senate&amp;party=R" data-fmt="int">—</b> R, <b data-draw="v" data-source="summary" data-field="central" data-where="chamber=senate&amp;party=I" data-fmt="int">—</b> I; House <b data-draw="v" data-source="summary" data-field="central" data-where="chamber=house&amp;party=D" data-fmt="int">—</b> D, <b data-draw="v" data-source="summary" data-field="central" data-where="chamber=house&amp;party=R" data-fmt="int">—</b> R; governors <b data-draw="v" data-source="summary" data-field="central" data-where="chamber=governors&amp;party=D" data-fmt="int">—</b> D, <b data-draw="v" data-source="summary" data-field="central" data-where="chamber=governors&amp;party=R" data-fmt="int">—</b> R. Seats are counted by ballot label.</p>
+</header>
+
+<nav class="mt-tabs" role="tablist" aria-label="Sections">
+  <button class="mt-tab" role="tab" data-tab="overview" aria-selected="true">Overview</button>
+  <button class="mt-tab" role="tab" data-tab="senate" aria-selected="false">Senate races</button>
+  <button class="mt-tab" role="tab" data-tab="governors" aria-selected="false">Governor races</button>
+  <button class="mt-tab" role="tab" data-tab="house" aria-selected="false">House</button>
+  <button class="mt-tab" role="tab" data-tab="polls" aria-selected="false">Polls and weights</button>
+  <button class="mt-tab" role="tab" data-tab="method" aria-selected="false">Methodology</button>
+</nav>
+
+<section id="overview" data-page="overview">
+  <div class="mt-grid">
+    <div class="mt-card" id="tile-senate">
+      <h3>Senate</h3>
+      <p class="mt-note"><b data-draw="v" data-source="params" data-field="value" data-where="key=sen_up" data-fmt="int">—</b> of <b data-draw="v" data-source="params" data-field="value" data-where="key=sen_total" data-fmt="int">—</b> seats are up, including the Ohio and Florida specials. Expected seats after the election, with the 80% range.</p>
+      <div class="mt-seats">
+        <div><div class="mt-lab"><span class="mt-sw d"></span>Democrats</div><div class="mt-num" data-draw="v" data-source="summary" data-field="central" data-where="chamber=senate&amp;party=D" data-fmt="int">—</div><div class="mt-sub"><span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=senate&amp;party=D" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=senate&amp;party=D" data-fmt="int">—</span></div><div class="mt-sub">Now <span data-draw="v" data-source="summary" data-field="now" data-where="chamber=senate&amp;party=D" data-fmt="int">—</span>, change <span data-draw="v" data-source="summary" data-field="change" data-where="chamber=senate&amp;party=D" data-fmt="sint">—</span></div></div>
+        <div><div class="mt-lab"><span class="mt-sw r"></span>Republicans</div><div class="mt-num" data-draw="v" data-source="summary" data-field="central" data-where="chamber=senate&amp;party=R" data-fmt="int">—</div><div class="mt-sub"><span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=senate&amp;party=R" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=senate&amp;party=R" data-fmt="int">—</span></div><div class="mt-sub">Now <span data-draw="v" data-source="summary" data-field="now" data-where="chamber=senate&amp;party=R" data-fmt="int">—</span>, change <span data-draw="v" data-source="summary" data-field="change" data-where="chamber=senate&amp;party=R" data-fmt="sint">—</span></div></div>
+        <div><div class="mt-lab"><span class="mt-sw i"></span>Independents</div><div class="mt-num" data-draw="v" data-source="summary" data-field="central" data-where="chamber=senate&amp;party=I" data-fmt="int">—</div><div class="mt-sub"><span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=senate&amp;party=I" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=senate&amp;party=I" data-fmt="int">—</span></div><div class="mt-sub">Now <span data-draw="v" data-source="summary" data-field="now" data-where="chamber=senate&amp;party=I" data-fmt="int">—</span>, change <span data-draw="v" data-source="summary" data-field="change" data-where="chamber=senate&amp;party=I" data-fmt="sint">—</span></div></div>
+      </div>
+      <div class="mt-ctrl">
+        <div><span class="mt-sw d"></span>Democratic control, with Sanders and King: <b data-draw="v" data-source="control" data-field="prob" data-where="chamber=senate&amp;outcome=D" data-fmt="pct">—</b></div>
+        <div><span class="mt-sw r"></span>Republican control, VP Vance breaks a tie: <b data-draw="v" data-source="control" data-field="prob" data-where="chamber=senate&amp;outcome=R" data-fmt="pct">—</b></div>
+        <div><span class="mt-sw i"></span>Majority depends on newly elected independents: <b data-draw="v" data-source="control" data-field="prob" data-where="chamber=senate&amp;outcome=other" data-fmt="pct">—</b></div>
+      </div>
+    </div>
+    <div class="mt-card" id="tile-house">
+      <h3>House</h3>
+      <p class="mt-note">All <b data-draw="v" data-source="params" data-field="value" data-where="key=house_total" data-fmt="int">—</b> seats, on the 2026 maps. Kevin Kiley (CA-6) is the only independent on a competitive ballot. Today's count leaves out <b data-draw="v" data-source="params" data-field="value" data-where="key=house_vacant" data-fmt="int">—</b> vacancies.</p>
+      <div class="mt-seats">
+        <div><div class="mt-lab"><span class="mt-sw d"></span>Democrats</div><div class="mt-num" data-draw="v" data-source="summary" data-field="central" data-where="chamber=house&amp;party=D" data-fmt="int">—</div><div class="mt-sub"><span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=house&amp;party=D" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=house&amp;party=D" data-fmt="int">—</span></div><div class="mt-sub">Now <span data-draw="v" data-source="summary" data-field="now" data-where="chamber=house&amp;party=D" data-fmt="int">—</span>, change <span data-draw="v" data-source="summary" data-field="change" data-where="chamber=house&amp;party=D" data-fmt="sint">—</span></div></div>
+        <div><div class="mt-lab"><span class="mt-sw r"></span>Republicans</div><div class="mt-num" data-draw="v" data-source="summary" data-field="central" data-where="chamber=house&amp;party=R" data-fmt="int">—</div><div class="mt-sub"><span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=house&amp;party=R" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=house&amp;party=R" data-fmt="int">—</span></div><div class="mt-sub">Now <span data-draw="v" data-source="summary" data-field="now" data-where="chamber=house&amp;party=R" data-fmt="int">—</span>, change <span data-draw="v" data-source="summary" data-field="change" data-where="chamber=house&amp;party=R" data-fmt="sint">—</span></div></div>
+        <div><div class="mt-lab"><span class="mt-sw i"></span>Independents</div><div class="mt-num" data-draw="v" data-source="summary" data-field="central" data-where="chamber=house&amp;party=I" data-fmt="int">—</div><div class="mt-sub"><span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=house&amp;party=I" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=house&amp;party=I" data-fmt="int">—</span></div><div class="mt-sub">Now <span data-draw="v" data-source="summary" data-field="now" data-where="chamber=house&amp;party=I" data-fmt="int">—</span>, change <span data-draw="v" data-source="summary" data-field="change" data-where="chamber=house&amp;party=I" data-fmt="sint">—</span></div></div>
+      </div>
+      <div class="mt-ctrl">
+        <div><span class="mt-sw d"></span>Democrats reach <span data-draw="v" data-source="params" data-field="value" data-where="key=house_needed" data-fmt="int">—</span>: <b data-draw="v" data-source="control" data-field="prob" data-where="chamber=house&amp;outcome=D" data-fmt="pct">—</b></div>
+        <div><span class="mt-sw r"></span>Republicans reach <span data-draw="v" data-source="params" data-field="value" data-where="key=house_needed" data-fmt="int">—</span>: <b data-draw="v" data-source="control" data-field="prob" data-where="chamber=house&amp;outcome=R" data-fmt="pct">—</b></div>
+        <div><span class="mt-sw i"></span>No party reaches a majority: <b data-draw="v" data-source="control" data-field="prob" data-where="chamber=house&amp;outcome=other" data-fmt="pct">—</b></div>
+      </div>
+    </div>
+    <div class="mt-card" id="tile-governors">
+      <h3>Governors</h3>
+      <p class="mt-note"><b data-draw="v" data-source="params" data-field="value" data-where="key=gov_up" data-fmt="int">—</b> races plus the <b data-draw="v" data-source="params" data-field="value" data-where="key=gov_notup" data-fmt="int">—</b> governors not up this year. Expected governorships after the election.</p>
+      <div class="mt-seats">
+        <div><div class="mt-lab"><span class="mt-sw d"></span>Democrats</div><div class="mt-num" data-draw="v" data-source="summary" data-field="central" data-where="chamber=governors&amp;party=D" data-fmt="int">—</div><div class="mt-sub"><span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=governors&amp;party=D" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=governors&amp;party=D" data-fmt="int">—</span></div><div class="mt-sub">Now <span data-draw="v" data-source="summary" data-field="now" data-where="chamber=governors&amp;party=D" data-fmt="int">—</span>, change <span data-draw="v" data-source="summary" data-field="change" data-where="chamber=governors&amp;party=D" data-fmt="sint">—</span></div></div>
+        <div><div class="mt-lab"><span class="mt-sw r"></span>Republicans</div><div class="mt-num" data-draw="v" data-source="summary" data-field="central" data-where="chamber=governors&amp;party=R" data-fmt="int">—</div><div class="mt-sub"><span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=governors&amp;party=R" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=governors&amp;party=R" data-fmt="int">—</span></div><div class="mt-sub">Now <span data-draw="v" data-source="summary" data-field="now" data-where="chamber=governors&amp;party=R" data-fmt="int">—</span>, change <span data-draw="v" data-source="summary" data-field="change" data-where="chamber=governors&amp;party=R" data-fmt="sint">—</span></div></div>
+        <div><div class="mt-lab"><span class="mt-sw i"></span>Independents</div><div class="mt-num" data-draw="v" data-source="summary" data-field="central" data-where="chamber=governors&amp;party=I" data-fmt="int">—</div><div class="mt-sub"><span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=governors&amp;party=I" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=governors&amp;party=I" data-fmt="int">—</span></div><div class="mt-sub">Now <span data-draw="v" data-source="summary" data-field="now" data-where="chamber=governors&amp;party=I" data-fmt="int">—</span>, change <span data-draw="v" data-source="summary" data-field="change" data-where="chamber=governors&amp;party=I" data-fmt="sint">—</span></div></div>
+      </div>
+      <div class="mt-ctrl">
+        <div><span class="mt-sw d"></span>Democrats hold a majority of governorships: <b data-draw="v" data-source="control" data-field="prob" data-where="chamber=governors&amp;outcome=D" data-fmt="pct">—</b></div>
+        <div><span class="mt-sw r"></span>Republicans hold a majority: <b data-draw="v" data-source="control" data-field="prob" data-where="chamber=governors&amp;outcome=R" data-fmt="pct">—</b></div>
+        <div><span class="mt-sw i"></span>Even split: <b data-draw="v" data-source="control" data-field="prob" data-where="chamber=governors&amp;outcome=other" data-fmt="pct">—</b></div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="mt-h2">Seat distributions from the simulation</h2>
+  <div class="mt-grid">
+    <div class="mt-card"><h3>Senate: Democratic seats</h3><p class="mt-note">Share of simulated elections ending with each number of Democratic seats. Bars at or right of the dashed line give Democrats a majority together with Sanders and King.</p><div class="mt-chart" id="dist-senate" data-draw="dist" data-source="seat_dist" data-chamber="senate"></div></div>
+    <div class="mt-card"><h3>House: Democratic seats</h3><p class="mt-note">Share of simulated elections ending with each number of Democratic seats. The dashed line marks a majority.</p><div class="mt-chart" id="dist-house" data-draw="dist" data-source="seat_dist" data-chamber="house"></div></div>
+    <div class="mt-card"><h3>Governors: Democratic governorships</h3><p class="mt-note">Share of simulated elections ending with each number of Democratic governors. The dashed line marks a majority of states.</p><div class="mt-chart" id="dist-governors" data-draw="dist" data-source="seat_dist" data-chamber="governors"></div></div>
+  </div>
+  <div class="mt-legend"><span><span class="mt-sw d"></span>Democratic majority</span><span><span class="mt-sw r"></span>No Democratic majority</span><span><span class="mt-sw dash"></span>Majority line</span></div>
+
+  <h2 class="mt-h2">What if the polls are wrong?</h2>
+  <div class="mt-grid">
+    <div class="mt-card" id="scen-card">
+      <h3>Chance of Democratic control under a uniform polling miss</h3>
+      <p class="mt-note">Every race, including the generic ballot, shifted by the same amount. Left of zero, Republicans beat their polls; right of zero, Democrats do. Ticks under the chart mark the average state polling miss in past cycles.</p>
+      <div class="mt-chart tall" id="scen-chart" data-draw="scen" data-source="scenarios cycle_bias"></div>
+      <div class="mt-legend"><span><span class="mt-sw line mt-c0"></span>Senate</span><span><span class="mt-sw line mt-c1"></span>House</span><span><span class="mt-sw dash"></span>Even odds</span></div>
+    </div>
+  </div>
+
+  <h2 class="mt-h2">Benchmark against other forecasts</h2>
+  <div class="mt-card" id="bench-card">
+    <h3>Control probabilities and seat counts</h3>
+    <p class="mt-note">Senate seats here include Sanders and King, the way other forecasts report them. Blank cells: not published, or not in the sources we could read.</p>
+    <div class="mt-tablewrap">
+      <table class="mt-table mid" id="bench-table" data-source="benchmarks" data-row-key="source">
+        <thead><tr><th data-field="source">Forecast</th><th data-field="date" data-fmt="date">As of</th><th class="r" data-field="senate_dem_control" data-fmt="pct">Senate D control</th><th class="r" data-field="house_dem_control" data-fmt="pct">House D control</th><th class="r" data-field="senate_dem_seats" data-fmt="int">Senate D seats</th><th class="r" data-field="house_dem_seats" data-fmt="int">House D seats</th><th class="r" data-field="governors_dem" data-fmt="int">D governors</th><th data-field="note">Note</th></tr></thead>
+        <tbody data-draw="tbl"></tbody>
+      </table>
+    </div>
+    <div class="mt-p">
+      <p><b>Senate.</b> Our odds sit in the middle of the published forecasts: a little below Silver Bulletin and Race to the WH, close to Kalshi, and above Decision Desk HQ and the last Dave Manuel number we could read. Our Democratic caucus count matches Decision Desk HQ's; Race to the WH and Sabato's final ratings have one seat more. Polls underestimated Republicans in 2016, 2020 and 2024. This model treats that record as a reason for wide uncertainty, but not as a direction, because the misses in the 2018 midterm and the 2025 governor races went the other way.</p>
+      <p><b>House.</b> Our odds are below Kalshi and the last Silver Bulletin and Dave Manuel numbers we could read, and above Decision Desk HQ. Our expected seat count is below Decision Desk HQ's and below the number of seats Sabato's final ratings lean to Democrats, but above the seats Cook rates at least Lean D before its toss-ups are counted. Part of the gap: half of each district estimate comes from the Cook, Sabato and Inside Elections ratings, and Cook and Inside Elections still list many Republican-held seats as toss-ups; the generic ballot alone would add a few Democratic seats. The rest likely comes from inputs we do not model, such as fundraising, and from holding every seat that all three raters call safe fixed in place.</p>
+      <p><b>Governors.</b> Few public forecasts publish governor totals. Our central estimate equals the number of governorships Sabato's final ratings lean to Democrats.</p>
+    </div>
+  </div>
+</section>
+
+<section id="senate" data-page="senate" hidden>
+  <p class="mt-note">Positive margins favor the Democrat, or the independent where an independent is the main challenger (Nebraska, Idaho, South Dakota, Montana). Margins are two-party percentage points.</p>
+  <div class="mt-card">
+    <h3>Competitive Senate races: model margin and 80% range</h3>
+    <p class="mt-note">Dot: expected margin. Line: the middle 80% of simulated outcomes. Color: the favored party. Races rated safe by the model are left out unless the seat changes party; see the table for all races.</p>
+    <div class="mt-chart tall" id="sen-dots" data-draw="dots" data-source="senate_races"></div>
+  </div>
+  <h2 class="mt-h2">All Senate races</h2>
+  <div class="mt-card">
+    <p class="mt-note">Poll avg: weighted, adjusted average. Poll weight: the volume of polling after quality, recency, size and sponsorship weights. Polls' share: how much of the estimate rests on polls rather than the prior. Click a column to sort.</p>
+    <input class="mt-search" type="search" placeholder="Search races" aria-label="Search Senate races">
+    <div class="mt-tablewrap">
+      <table class="mt-table wide" id="sen-table" data-source="senate_races" data-row-key="race">
+        <thead><tr>
+          <th data-field="race" aria-sort="none"><button class="mt-sort">Race</button></th>
+          <th data-field="holder" aria-sort="none"><button class="mt-sort">Held by</button></th>
+          <th data-field="dem" aria-sort="none"><button class="mt-sort">D or I candidate</button></th>
+          <th data-field="rep" aria-sort="none"><button class="mt-sort">R candidate</button></th>
+          <th class="r" data-field="poll_avg" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Poll avg</button></th>
+          <th class="r" data-field="polls" data-fmt="int" aria-sort="none"><button class="mt-sort">Polls</button></th>
+          <th class="r" data-field="polls_30d" data-fmt="int" aria-sort="none"><button class="mt-sort">Last 30 days</button></th>
+          <th class="r" data-field="poll_weight" data-fmt="dec1" aria-sort="none"><button class="mt-sort">Poll weight</button></th>
+          <th class="r" data-field="poll_share" data-fmt="pct" aria-sort="none"><button class="mt-sort">Polls' share</button></th>
+          <th class="r" data-field="prior" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Prior</button></th>
+          <th class="r" data-field="state_adj" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">State adj.</button></th>
+          <th class="r" data-field="margin" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Model margin</button></th>
+          <th class="r" data-field="margin_lo" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">80% low</button></th>
+          <th class="r" data-field="margin_hi" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">80% high</button></th>
+          <th class="r" data-field="p_win" data-fmt="pct" aria-sort="none"><button class="mt-sort">D or I win chance</button></th>
+          <th data-field="model_rating" aria-sort="none"><button class="mt-sort">Model rating</button></th>
+          <th data-field="cook" aria-sort="none"><button class="mt-sort">Cook</button></th>
+          <th data-field="sabato" aria-sort="none"><button class="mt-sort">Sabato</button></th>
+          <th data-field="ie" aria-sort="none"><button class="mt-sort">Inside Elections</button></th>
+          <th data-field="top_pollsters" aria-sort="none"><button class="mt-sort">Top-weighted pollsters</button></th>
+          <th data-field="flags" aria-sort="none"><button class="mt-sort">Flags</button></th>
+          <th data-field="rationale" aria-sort="none"><button class="mt-sort">Why</button></th>
+        </tr></thead>
+        <tbody data-draw="tbl"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="governors" data-page="governors" hidden>
+  <p class="mt-note">Positive margins favor the Democrat. For the races marked "Aggregate only" we used PollCheck's published average in place of individual polls.</p>
+  <div class="mt-card">
+    <h3>Competitive governor races: model margin and 80% range</h3>
+    <p class="mt-note">Dot: expected margin. Line: the middle 80% of simulated outcomes. Color: the favored party.</p>
+    <div class="mt-chart tall" id="gov-dots" data-draw="dots" data-source="governor_races"></div>
+  </div>
+  <h2 class="mt-h2">All governor races</h2>
+  <div class="mt-card">
+    <p class="mt-note">Same columns as the Senate table. Click a column to sort.</p>
+    <input class="mt-search" type="search" placeholder="Search races" aria-label="Search governor races">
+    <div class="mt-tablewrap">
+      <table class="mt-table wide" id="gov-table" data-source="governor_races" data-row-key="race">
+        <thead><tr>
+          <th data-field="race" aria-sort="none"><button class="mt-sort">Race</button></th>
+          <th data-field="holder" aria-sort="none"><button class="mt-sort">Held by</button></th>
+          <th data-field="dem" aria-sort="none"><button class="mt-sort">D candidate</button></th>
+          <th data-field="rep" aria-sort="none"><button class="mt-sort">R candidate</button></th>
+          <th class="r" data-field="poll_avg" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Poll avg</button></th>
+          <th class="r" data-field="polls" data-fmt="int" aria-sort="none"><button class="mt-sort">Polls</button></th>
+          <th class="r" data-field="polls_30d" data-fmt="int" aria-sort="none"><button class="mt-sort">Last 30 days</button></th>
+          <th class="r" data-field="poll_weight" data-fmt="dec1" aria-sort="none"><button class="mt-sort">Poll weight</button></th>
+          <th class="r" data-field="poll_share" data-fmt="pct" aria-sort="none"><button class="mt-sort">Polls' share</button></th>
+          <th class="r" data-field="prior" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Prior</button></th>
+          <th class="r" data-field="state_adj" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">State adj.</button></th>
+          <th class="r" data-field="margin" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Model margin</button></th>
+          <th class="r" data-field="margin_lo" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">80% low</button></th>
+          <th class="r" data-field="margin_hi" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">80% high</button></th>
+          <th class="r" data-field="p_win" data-fmt="pct" aria-sort="none"><button class="mt-sort">D win chance</button></th>
+          <th data-field="model_rating" aria-sort="none"><button class="mt-sort">Model rating</button></th>
+          <th data-field="cook" aria-sort="none"><button class="mt-sort">Cook</button></th>
+          <th data-field="sabato" aria-sort="none"><button class="mt-sort">Sabato</button></th>
+          <th data-field="ie" aria-sort="none"><button class="mt-sort">Inside Elections</button></th>
+          <th data-field="top_pollsters" aria-sort="none"><button class="mt-sort">Top-weighted pollsters</button></th>
+          <th data-field="flags" aria-sort="none"><button class="mt-sort">Flags</button></th>
+          <th data-field="rationale" aria-sort="none"><button class="mt-sort">Why</button></th>
+        </tr></thead>
+        <tbody data-draw="tbl"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="house" data-page="house" hidden>
+  <div class="mt-grid">
+    <div class="mt-card"><div class="mt-lab">Safe Democratic seats</div><div class="mt-num" data-draw="v" data-source="params" data-field="value" data-where="key=safe_d" data-fmt="int">—</div><div class="mt-sub">Rated safe by Cook, Sabato and Inside Elections</div></div>
+    <div class="mt-card"><div class="mt-lab">Safe Republican seats</div><div class="mt-num" data-draw="v" data-source="params" data-field="value" data-where="key=safe_r" data-fmt="int">—</div><div class="mt-sub">Rated safe by Cook, Sabato and Inside Elections</div></div>
+    <div class="mt-card"><div class="mt-lab">Districts modelled one by one</div><div class="mt-num" data-draw="v" data-source="params" data-field="value" data-where="key=house_detail" data-fmt="int">—</div><div class="mt-sub">Rated below safe by at least one forecaster</div></div>
+    <div class="mt-card"><div class="mt-lab">Generic ballot, D margin</div><div class="mt-num" data-draw="v" data-source="params" data-field="value" data-where="key=gb" data-fmt="sdec1">—</div><div class="mt-sub">Two-party points, from <span data-draw="v" data-source="params" data-field="value" data-where="key=gb_n" data-fmt="int">—</span> polls</div></div>
+  </div>
+  <div class="mt-grid">
+    <div class="mt-card">
+      <h3>Competitive districts: Democratic win chance</h3>
+      <p class="mt-note">One bar per district, sorted from most to least Democratic. Bars run from even odds to the model's win chance, colored by the favored side. Hover for the district.</p>
+      <div class="mt-chart" id="house-ladder" data-draw="ladder" data-source="house_races"></div>
+    </div>
+    <div class="mt-card">
+      <h3>Generic ballot polls</h3>
+      <p class="mt-note">Each dot is a poll after likely-voter, sponsor and house-effect adjustments; larger dots carry more weight. The dashed line is the weighted average used as the national environment.</p>
+      <div class="mt-chart" id="gb-chart" data-draw="gbchart" data-source="polls params"></div>
+    </div>
+  </div>
+  <h2 class="mt-h2">Competitive House districts</h2>
+  <div class="mt-card">
+    <p class="mt-note">Fundamentals: generic ballot plus twice the district PVI plus incumbency. Ratings: the three forecasters' ratings turned into margins. Model margin: the average of the two. District polls were too few, and mostly partisan, to use. Click a column to sort.</p>
+    <input class="mt-search" type="search" placeholder="Search districts" aria-label="Search House districts">
+    <div class="mt-tablewrap">
+      <table class="mt-table wide" id="house-table" data-source="house_races" data-row-key="district">
+        <thead><tr>
+          <th data-field="district" aria-sort="none"><button class="mt-sort">District</button></th>
+          <th data-field="holder" aria-sort="none"><button class="mt-sort">Held by</button></th>
+          <th data-field="incumbent" aria-sort="none"><button class="mt-sort">Incumbent</button></th>
+          <th data-field="pvi" aria-sort="none"><button class="mt-sort">PVI</button></th>
+          <th data-field="cook" aria-sort="none"><button class="mt-sort">Cook</button></th>
+          <th data-field="sabato" aria-sort="none"><button class="mt-sort">Sabato</button></th>
+          <th data-field="ie" aria-sort="none"><button class="mt-sort">Inside Elections</button></th>
+          <th class="r" data-field="fundamentals" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Fundamentals</button></th>
+          <th class="r" data-field="ratings_margin" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Ratings</button></th>
+          <th class="r" data-field="margin" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Model margin</button></th>
+          <th class="r" data-field="margin_lo" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">80% low</button></th>
+          <th class="r" data-field="margin_hi" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">80% high</button></th>
+          <th class="r" data-field="p_win" data-fmt="pct" aria-sort="none"><button class="mt-sort">D win chance</button></th>
+          <th data-field="model_rating" aria-sort="none"><button class="mt-sort">Model rating</button></th>
+          <th data-field="note" aria-sort="none"><button class="mt-sort">Note</button></th>
+        </tr></thead>
+        <tbody data-draw="tbl"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="polls" data-page="polls" hidden>
+  <div class="mt-card">
+    <h3>Pollster weights</h3>
+    <p class="mt-note">Weight: the quality multiplier from each pollster's historical accuracy. Excess error: how many points more (positive) or less (negative) its polls missed the final margin than other polls of the same races. Past bias: average lean toward Democrats (positive) in past races. House effect: its lean against the 2026 averages, subtracted from its polls.</p>
+    <input class="mt-search" type="search" placeholder="Search pollsters" aria-label="Search pollsters">
+    <div class="mt-tablewrap">
+      <table class="mt-table mid" id="pollster-table" data-source="pollsters" data-row-key="pollster">
+        <thead><tr>
+          <th data-field="pollster" aria-sort="none"><button class="mt-sort">Pollster</button></th>
+          <th class="r" data-field="weight" data-fmt="dec2" aria-sort="descending"><button class="mt-sort">Weight</button></th>
+          <th class="r" data-field="excess_error" data-fmt="sdec2" aria-sort="none"><button class="mt-sort">Excess error</button></th>
+          <th data-field="track_record" aria-sort="none"><button class="mt-sort">Track record</button></th>
+          <th class="r" data-field="hist_polls" data-fmt="int" aria-sort="none"><button class="mt-sort">Past polls</button></th>
+          <th class="r" data-field="hist_bias" data-fmt="sdec2" aria-sort="none"><button class="mt-sort">Past bias</button></th>
+          <th class="r" data-field="house_effect" data-fmt="sdec2" aria-sort="none"><button class="mt-sort">2026 house effect</button></th>
+          <th class="r" data-field="polls_2026" data-fmt="int" aria-sort="none"><button class="mt-sort">2026 polls</button></th>
+          <th class="r" data-field="sponsored" data-fmt="int" aria-sort="none"><button class="mt-sort">Sponsored</button></th>
+        </tr></thead>
+        <tbody data-draw="tbl"></tbody>
+      </table>
+    </div>
+  </div>
+  <h2 class="mt-h2">Every poll in the model</h2>
+  <div class="mt-card">
+    <p class="mt-note">Margin: two-party points, Democrat or independent minus Republican. Adjusted: after the likely-voter, sponsor and house-effect adjustments. Weight: the poll's final weight in its race average today. Search by race, state or pollster.</p>
+    <input class="mt-search" type="search" placeholder="Search polls" aria-label="Search polls">
+    <div class="mt-tablewrap">
+      <table class="mt-table wide" id="poll-table" data-source="polls" data-row-key="poll">
+        <thead><tr>
+          <th data-field="poll" aria-sort="none"><button class="mt-sort">#</button></th>
+          <th data-field="contest" aria-sort="none"><button class="mt-sort">Race</button></th>
+          <th data-field="pollster" aria-sort="none"><button class="mt-sort">Pollster</button></th>
+          <th data-field="sponsor" aria-sort="none"><button class="mt-sort">Sponsor</button></th>
+          <th data-field="end" data-fmt="date" aria-sort="none"><button class="mt-sort">Fieldwork end</button></th>
+          <th class="r" data-field="n" data-fmt="int" aria-sort="none"><button class="mt-sort">Sample</button></th>
+          <th data-field="pop" aria-sort="none"><button class="mt-sort">Voters</button></th>
+          <th class="r" data-field="dem" data-fmt="dec1" aria-sort="none"><button class="mt-sort">D or I %</button></th>
+          <th class="r" data-field="rep" data-fmt="dec1" aria-sort="none"><button class="mt-sort">R %</button></th>
+          <th class="r" data-field="margin_2p" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Margin</button></th>
+          <th class="r" data-field="pop_adj" data-fmt="sdec2" aria-sort="none"><button class="mt-sort">Voter adj.</button></th>
+          <th class="r" data-field="sponsor_adj" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Sponsor adj.</button></th>
+          <th class="r" data-field="house_effect" data-fmt="sdec2" aria-sort="none"><button class="mt-sort">House effect</button></th>
+          <th class="r" data-field="adj_margin" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Adjusted</button></th>
+          <th class="r" data-field="weight" data-fmt="dec2" aria-sort="none"><button class="mt-sort">Weight</button></th>
+        </tr></thead>
+        <tbody data-draw="tbl"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="method" data-page="method" hidden>
+  <div class="mt-card mt-p">
+    <h3>How the forecast works</h3>
+    <ol>
+      <li><b>Polls.</b> <span data-draw="v" data-source="params" data-field="value" data-where="key=n_polls" data-fmt="int">—</span> Senate and governor polls from <span data-draw="v" data-source="params" data-field="value" data-where="key=n_pollsters" data-fmt="int">—</span> pollsters, plus <span data-draw="v" data-source="params" data-field="value" data-where="key=gb_n" data-fmt="int">—</span> generic ballot polls, with fieldwork ending by <span data-draw="v" data-source="params" data-field="value" data-where="key=cutoff" data-fmt="date">—</span>. We kept one version of each poll: likely voters and the full field where a pollster published several, and the final ranked-choice round in Alaska. For <span data-draw="v" data-source="params" data-field="value" data-where="key=pseudo_n" data-fmt="int">—</span> lopsided governor races we used PollCheck's published average instead of individual polls.</li>
+      <li><b>Weight from historical correctness.</b> For each pollster we measured its race-adjusted excess error: how much bigger its miss on the final margin was than the misses of other polls of the same race, using polls taken in the last <span data-draw="v" data-source="params" data-field="value" data-where="key=hist_days" data-fmt="int">—</span> days of the 2014 to 2022 general elections (538's raw poll database). The record is shrunk toward zero by n / (n + <span data-draw="v" data-source="params" data-field="value" data-where="key=hist_k" data-fmt="int">—</span>). With fewer than <span data-draw="v" data-source="params" data-field="value" data-where="key=min_hist" data-fmt="int">—</span> past polls we used 538's 2024 error rating plus <span data-draw="v" data-source="params" data-field="value" data-where="key=pen538" data-fmt="dec1">—</span> points; a pollster with no record gets <span data-draw="v" data-source="params" data-field="value" data-where="key=unknown_excess" data-fmt="dec1">—</span> points. Weight = exp(&#8722;<span data-draw="v" data-source="params" data-field="value" data-where="key=q_slope" data-fmt="dec1">—</span> &#215; excess error), kept between <span data-draw="v" data-source="params" data-field="value" data-where="key=q_min" data-fmt="dec2">—</span> and <span data-draw="v" data-source="params" data-field="value" data-where="key=q_max" data-fmt="dec1">—</span>. Silver Bulletin's review of the 2025 races moved State Navigate up and Beacon/Shaw down.</li>
+      <li><b>Other weights.</b> Recency halves a poll's weight every <span data-draw="v" data-source="params" data-field="value" data-where="key=half_life" data-fmt="int">—</span> days. Sample size counts as the square root of n / <span data-draw="v" data-source="params" data-field="value" data-where="key=size_ref" data-fmt="int">—</span>, capped at <span data-draw="v" data-source="params" data-field="value" data-where="key=size_cap" data-fmt="int">—</span> respondents. Registered-voter polls get <span data-draw="v" data-source="params" data-field="value" data-where="key=w_rv" data-fmt="dec2">—</span> of the weight and adult samples <span data-draw="v" data-source="params" data-field="value" data-where="key=w_a" data-fmt="dec1">—</span>. A pollster's repeated polls of one race share their weight.</li>
+      <li><b>Likely voters.</b> Registered-voter margins move by <span data-draw="v" data-source="params" data-field="value" data-where="key=lv_rv" data-fmt="sdec2">—</span> points, the average gap between the likely- and registered-voter versions of the same survey across <span data-draw="v" data-source="params" data-field="value" data-where="key=lv_pairs" data-fmt="int">—</span> pairs in this year's polls.</li>
+      <li><b>Sponsored polls.</b> Polls paid for by a campaign, party or allied group get <span data-draw="v" data-source="params" data-field="value" data-where="key=sponsor_w" data-fmt="dec1">—</span> of the weight and are moved against the sponsor: <span data-draw="v" data-source="params" data-field="value" data-where="key=sponsor_d" data-fmt="sdec1">—</span> points for Democratic or independent sponsors and <span data-draw="v" data-source="params" data-field="value" data-where="key=sponsor_r" data-fmt="sdec1">—</span> for Republican ones. Those are the leans we measured for sponsored polls against nonpartisan polls of the same races, 1998 to 2022.</li>
+      <li><b>House effects.</b> Each pollster's average gap from the race averages, pooled across all 2026 races and the generic ballot and shrunk by n / (n + <span data-draw="v" data-source="params" data-field="value" data-where="key=he_shrink" data-fmt="int">—</span>), is taken off its polls. We repeat this <span data-draw="v" data-source="params" data-field="value" data-where="key=he_passes" data-fmt="int">—</span> times.</li>
+      <li><b>Historical state error.</b> Final poll averages understate the eventual margin: results ran <span data-draw="v" data-source="params" data-field="value" data-where="key=beta" data-fmt="dec2">—</span> times the poll margin in 2016 to 2022, so averages are stretched by that factor. States whose polls missed in the same direction across cycles get <span data-draw="v" data-source="params" data-field="value" data-where="key=state_rho" data-fmt="dec2">—</span> of their average miss, capped at <span data-draw="v" data-source="params" data-field="value" data-where="key=state_cap" data-fmt="dec1">—</span> point. We measured the persistence of those misses at a correlation of <span data-draw="v" data-source="params" data-field="value" data-where="key=state_corr" data-fmt="dec2">—</span>, so most of the history is discounted. State-level 2024 misses are not in the data we could use.</li>
+      <li><b>Prior for thin polling.</b> Each average is blended with a prior. Senate: <span data-draw="v" data-source="params" data-field="value" data-where="key=w_sen_fund" data-fmt="dec1">—</span> fundamentals (generic ballot plus twice the state PVI plus incumbency) and <span data-draw="v" data-source="params" data-field="value" data-where="key=w_sen_rate" data-fmt="dec1">—</span> the Cook, Sabato and Inside Elections ratings. Governors: <span data-draw="v" data-source="params" data-field="value" data-where="key=w_gov_fund" data-fmt="dec1">—</span> fundamentals and <span data-draw="v" data-source="params" data-field="value" data-where="key=w_gov_rate" data-fmt="dec1">—</span> ratings, because governor races follow party lines less. Independent challengers get the ratings only. The prior counts as <span data-draw="v" data-source="params" data-field="value" data-where="key=k_sen" data-fmt="dec1">—</span> unit of poll weight in the Senate and <span data-draw="v" data-source="params" data-field="value" data-where="key=k_gov" data-fmt="dec1">—</span> for governors, so it matters only where polling is thin. Poll volume for this blend decays with a <span data-draw="v" data-source="params" data-field="value" data-where="key=info_half_life" data-fmt="int">—</span> day half-life.</li>
+      <li><b>House.</b> The <span data-draw="v" data-source="params" data-field="value" data-where="key=house_detail" data-fmt="int">—</span> districts that any of Cook, Sabato, Inside Elections or the 270toWin consensus rate below safe are modelled one by one: <span data-draw="v" data-source="params" data-field="value" data-where="key=w_house_fund" data-fmt="dec1">—</span> fundamentals on the 2026 maps and the rest ratings. The other <span data-draw="v" data-source="params" data-field="value" data-where="key=safe_d" data-fmt="int">—</span> Democratic and <span data-draw="v" data-source="params" data-field="value" data-where="key=safe_r" data-fmt="int">—</span> Republican seats are held fixed. Incumbency is worth <span data-draw="v" data-source="params" data-field="value" data-where="key=inc_sen" data-fmt="dec1">—</span> points in House and Senate races and <span data-draw="v" data-source="params" data-field="value" data-where="key=inc_gov" data-fmt="dec1">—</span> for governors.</li>
+      <li><b>Correlated simulation.</b> <span data-draw="v" data-source="params" data-field="value" data-where="key=nsim" data-fmt="int">—</span> simulated elections. Each race's margin is its estimate plus a national polling miss shared by every Senate, governor and House race (standard deviation <span data-draw="v" data-source="params" data-field="value" data-where="key=nat_sd" data-fmt="dec1">—</span> points), a regional error (<span data-draw="v" data-source="params" data-field="value" data-where="key=reg_sd" data-fmt="dec1">—</span>), a state error shared by races in one state (<span data-draw="v" data-source="params" data-field="value" data-where="key=state_sd" data-fmt="dec1">—</span>) and a race error with fat tails (Student t, <span data-draw="v" data-source="params" data-field="value" data-where="key=t_df" data-fmt="int">—</span> degrees of freedom; <span data-draw="v" data-source="params" data-field="value" data-where="key=idio" data-fmt="dec1">—</span> points in a well-polled statewide race, more where polling is thin, with independents, or with ranked-choice voting, and <span data-draw="v" data-source="params" data-field="value" data-where="key=house_idio" data-fmt="dec1">—</span> in a House district). The national figure matches the measured spread of the average miss from cycle to cycle (<span data-draw="v" data-source="params" data-field="value" data-where="key=cycle_sd" data-fmt="dec1">—</span>); competitive races missed by <span data-draw="v" data-source="params" data-field="value" data-where="key=comp_sd" data-fmt="dec1">—</span> points on top of that.</li>
+      <li><b>No assumed direction.</b> The national miss is centered on zero. Polls overstated Democrats in 2016, 2020 and 2024, but not in the 2018 midterm, and they understated Democrats in the 2025 governor races. The table below lists every cycle; the scenario chart on the overview shows what a repeat would do.</li>
+      <li><b>Counting.</b> By ballot label. Sanders and King (not up) and any newly elected independents count as I: Osborn, Achilles, Bengs or Bodnar in the Senate, Kiley in the House. Senate control needs <span data-draw="v" data-source="params" data-field="value" data-where="key=sen_needed" data-fmt="int">—</span> seats for Democrats including Sanders and King; Republicans keep control at a tie through Vice President Vance. The <span data-draw="v" data-source="params" data-field="value" data-where="key=sen_hold_d" data-fmt="int">—</span> Democratic, <span data-draw="v" data-source="params" data-field="value" data-where="key=sen_hold_r" data-fmt="int">—</span> Republican and <span data-draw="v" data-source="params" data-field="value" data-where="key=sen_hold_i" data-fmt="int">—</span> independent senators not up are added, as are the <span data-draw="v" data-source="params" data-field="value" data-where="key=gov_hold_d" data-fmt="int">—</span> Democratic and <span data-draw="v" data-source="params" data-field="value" data-where="key=gov_hold_r" data-fmt="int">—</span> Republican governors not up.</li>
+    </ol>
+    <h3>Assumptions and limits</h3>
+    <ul>
+      <li>Poll lists come from PollCheck's tables, which mirror Wikipedia. Some polls in some races may be missing.</li>
+      <li>Ratings include Sabato's final ratings, published the day before the election, and Cook's documented changes through the end of October. Inside Elections ratings are older: late October for the Senate, mid-October for the House and early September for governors, because its later changes were not public.</li>
+      <li>District PVIs come from the Wikipedia ratings table on the 2026 maps; Louisiana's 5th, redrawn this year, is estimated.</li>
+      <li>We do not know which caucus Osborn, Achilles, Bengs or Bodnar would join. If one of them decides the majority, the tile on the overview shows it as its own outcome.</li>
+      <li>No early-vote data, fundraising or candidate-quality model beyond what the ratings capture.</li>
+    </ul>
+  </div>
+  <div class="mt-grid" style="margin-top: var(--cds-gap-lg);">
+    <div class="mt-card">
+      <h3>National polling miss by cycle</h3>
+      <p class="mt-note">Average state-poll margin minus the result. Positive: polls overstated Democrats.</p>
+      <div class="mt-tablewrap">
+        <table class="mt-table" id="cycle-table" data-source="cycle_bias" data-row-key="cycle">
+          <thead><tr><th data-field="cycle">Cycle</th><th data-field="kind">Type</th><th class="r" data-field="state_poll_bias" data-fmt="sdec1">State polls</th><th class="r" data-field="generic_bias" data-fmt="sdec1">Generic ballot</th><th data-field="source">Source</th></tr></thead>
+          <tbody data-draw="tbl"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="mt-card">
+      <h3>State adjustments</h3>
+      <p class="mt-note">Average miss after margin stretching, 2016 to 2022. Positive: Democrats beat their polls. Applied: what this model adds to the margin.</p>
+      <input class="mt-search" type="search" placeholder="Search states" aria-label="Search states">
+      <div class="mt-tablewrap">
+        <table class="mt-table" id="state-table" data-source="state_bias" data-row-key="state">
+          <thead><tr><th data-field="state" aria-sort="none"><button class="mt-sort">State</button></th><th class="r" data-field="mean_miss" data-fmt="sdec2" aria-sort="none"><button class="mt-sort">Average miss</button></th><th class="r" data-field="races" data-fmt="int" aria-sort="none"><button class="mt-sort">Races</button></th><th class="r" data-field="applied" data-fmt="sdec2" aria-sort="none"><button class="mt-sort">Applied</button></th></tr></thead>
+          <tbody data-draw="tbl"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="mt-card mt-src" id="sources-card">
+    <h3>Sources</h3>
+    <ul data-draw="srcs" data-source="sources"></ul>
+  </div>
+</section>
+</div>
+<script src="app.js"></script>

@@ -1,0 +1,90 @@
+[
+{
+"source": "This model",
+"date": "2026-11-03",
+"senate_dem_control": 0.765,
+"house_dem_control": 0.894,
+"senate_dem_seats": 52,
+"house_dem_seats": 231,
+"governors_dem": 28,
+"note": "Polls through 2 Nov; Senate seats include Sanders and King",
+"url": ""
+},
+{
+"source": "Silver Bulletin (FLIPR)",
+"date": "2026-11-01",
+"senate_dem_control": 0.801,
+"house_dem_control": null,
+"senate_dem_seats": null,
+"house_dem_seats": null,
+"governors_dem": null,
+"note": "Senate odds as reported 1-2 Nov; its final House odds were not in sources we could read (95% on 22 Oct)",
+"url": "https://www.newsweek.com/nate-silver-says-gop-could-be-in-for-long-night-as-final-polls-drop-12648643"
+},
+{
+"source": "Decision Desk HQ",
+"date": "2026-11-02",
+"senate_dem_control": 0.65,
+"house_dem_control": 0.84,
+"senate_dem_seats": 52,
+"house_dem_seats": 241,
+"governors_dem": null,
+"note": "Final forecast",
+"url": "https://votes.decisiondeskhq.com/forecast/2026"
+},
+{
+"source": "Race to the WH",
+"date": "2026-11-01",
+"senate_dem_control": 0.794,
+"house_dem_control": null,
+"senate_dem_seats": 53,
+"house_dem_seats": null,
+"governors_dem": null,
+"note": "As reported by Newsweek",
+"url": "https://www.newsweek.com/nate-silver-says-gop-could-be-in-for-long-night-as-final-polls-drop-12648643"
+},
+{
+"source": "Kalshi",
+"date": "2026-11-02",
+"senate_dem_control": 0.75,
+"house_dem_control": 0.941,
+"senate_dem_seats": null,
+"house_dem_seats": null,
+"governors_dem": null,
+"note": "Market prices, 2 Nov, 2:11 pm ET",
+"url": "https://news.kalshi.com/p/2026-midterm-predictions"
+},
+{
+"source": "Sabato's Crystal Ball, final ratings",
+"date": "2026-11-02",
+"senate_dem_control": null,
+"house_dem_control": null,
+"senate_dem_seats": 53,
+"house_dem_seats": 239,
+"governors_dem": 28,
+"note": "Seats rated at least Leans D; no toss-ups left",
+"url": "https://centerforpolitics.org/crystalball/2026finalratings/"
+},
+{
+"source": "Cook Political Report ratings",
+"date": "2026-10-30",
+"senate_dem_control": null,
+"house_dem_control": null,
+"senate_dem_seats": null,
+"house_dem_seats": 222,
+"governors_dem": null,
+"note": "House seats rated Solid, Likely or Lean D; 17 toss-ups not counted",
+"url": "https://news.kalshi.com/p/2026-midterm-predictions"
+},
+{
+"source": "Dave Manuel forecast",
+"date": "2026-10-24",
+"senate_dem_control": 0.621,
+"house_dem_control": 0.947,
+"senate_dem_seats": null,
+"house_dem_seats": null,
+"governors_dem": 27,
+"note": "Last version we could read",
+"url": "https://www.davemanuel.com/2026-midterm-forecast.php"
+}
+]

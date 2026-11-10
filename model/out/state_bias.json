@@ -1,0 +1,272 @@
+[
+{
+"state": "Alaska",
+"mean_miss": -5.15,
+"races": 6,
+"applied": -1.0
+},
+{
+"state": "Alabama",
+"mean_miss": 0.85,
+"races": 6,
+"applied": 0.21
+},
+{
+"state": "Arkansas",
+"mean_miss": 2.81,
+"races": 6,
+"applied": 0.7
+},
+{
+"state": "Arizona",
+"mean_miss": 2.82,
+"races": 8,
+"applied": 0.7
+},
+{
+"state": "California",
+"mean_miss": 1.79,
+"races": 6,
+"applied": 0.45
+},
+{
+"state": "Colorado",
+"mean_miss": 4.7,
+"races": 7,
+"applied": 1.0
+},
+{
+"state": "Connecticut",
+"mean_miss": -2.76,
+"races": 7,
+"applied": -0.69
+},
+{
+"state": "Delaware",
+"mean_miss": 0.44,
+"races": 3,
+"applied": 0.11
+},
+{
+"state": "Florida",
+"mean_miss": -2.29,
+"races": 7,
+"applied": -0.57
+},
+{
+"state": "Georgia",
+"mean_miss": 3.0,
+"races": 10,
+"applied": 0.75
+},
+{
+"state": "Hawaii",
+"mean_miss": 5.81,
+"races": 3,
+"applied": 1.0
+},
+{
+"state": "Iowa",
+"mean_miss": -1.23,
+"races": 7,
+"applied": -0.31
+},
+{
+"state": "Idaho",
+"mean_miss": -4.35,
+"races": 4,
+"applied": -1.0
+},
+{
+"state": "Illinois",
+"mean_miss": -0.36,
+"races": 7,
+"applied": -0.09
+},
+{
+"state": "Kansas",
+"mean_miss": 2.99,
+"races": 7,
+"applied": 0.75
+},
+{
+"state": "Kentucky",
+"mean_miss": -2.13,
+"races": 4,
+"applied": -0.53
+},
+{
+"state": "Louisiana",
+"mean_miss": 5.74,
+"races": 3,
+"applied": 1.0
+},
+{
+"state": "Massachusetts",
+"mean_miss": 0.21,
+"races": 6,
+"applied": 0.05
+},
+{
+"state": "Maryland",
+"mean_miss": -2.36,
+"races": 4,
+"applied": -0.59
+},
+{
+"state": "Maine",
+"mean_miss": 1.93,
+"races": 6,
+"applied": 0.48
+},
+{
+"state": "Michigan",
+"mean_miss": -0.03,
+"races": 6,
+"applied": -0.01
+},
+{
+"state": "Minnesota",
+"mean_miss": -1.02,
+"races": 7,
+"applied": -0.26
+},
+{
+"state": "Mississippi",
+"mean_miss": -0.28,
+"races": 5,
+"applied": -0.07
+},
+{
+"state": "Montana",
+"mean_miss": -1.16,
+"races": 6,
+"applied": -0.29
+},
+{
+"state": "North Carolina",
+"mean_miss": 0.41,
+"races": 7,
+"applied": 0.1
+},
+{
+"state": "Nebraska",
+"mean_miss": 2.26,
+"races": 4,
+"applied": 0.57
+},
+{
+"state": "New Hampshire",
+"mean_miss": 1.11,
+"races": 9,
+"applied": 0.28
+},
+{
+"state": "New Jersey",
+"mean_miss": -1.4,
+"races": 4,
+"applied": -0.35
+},
+{
+"state": "New Mexico",
+"mean_miss": 4.02,
+"races": 6,
+"applied": 1.0
+},
+{
+"state": "Nevada",
+"mean_miss": 4.13,
+"races": 7,
+"applied": 1.0
+},
+{
+"state": "New York",
+"mean_miss": 3.08,
+"races": 7,
+"applied": 0.77
+},
+{
+"state": "Ohio",
+"mean_miss": -2.55,
+"races": 7,
+"applied": -0.64
+},
+{
+"state": "Oklahoma",
+"mean_miss": -6.98,
+"races": 8,
+"applied": -1.0
+},
+{
+"state": "Oregon",
+"mean_miss": 0.32,
+"races": 7,
+"applied": 0.08
+},
+{
+"state": "Pennsylvania",
+"mean_miss": 0.35,
+"races": 7,
+"applied": 0.09
+},
+{
+"state": "Rhode Island",
+"mean_miss": 0.9,
+"races": 4,
+"applied": 0.22
+},
+{
+"state": "South Carolina",
+"mean_miss": 1.29,
+"races": 5,
+"applied": 0.32
+},
+{
+"state": "South Dakota",
+"mean_miss": -4.82,
+"races": 7,
+"applied": -1.0
+},
+{
+"state": "Tennessee",
+"mean_miss": -3.5,
+"races": 6,
+"applied": -0.87
+},
+{
+"state": "Texas",
+"mean_miss": 3.18,
+"races": 6,
+"applied": 0.8
+},
+{
+"state": "Virginia",
+"mean_miss": 0.85,
+"races": 3,
+"applied": 0.21
+},
+{
+"state": "Vermont",
+"mean_miss": -1.21,
+"races": 7,
+"applied": -0.3
+},
+{
+"state": "Wisconsin",
+"mean_miss": -0.06,
+"races": 7,
+"applied": -0.02
+},
+{
+"state": "West Virginia",
+"mean_miss": -0.4,
+"races": 5,
+"applied": -0.1
+},
+{
+"state": "Wyoming",
+"mean_miss": -2.82,
+"races": 6,
+"applied": -0.71
+}
+]

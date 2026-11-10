@@ -1,0 +1,101 @@
+[
+{
+"chamber": "senate",
+"party": "D",
+"central": 50,
+"mean": 50.2,
+"median": 51,
+"p10": 47,
+"p90": 53,
+"now": 45,
+"change": 5
+},
+{
+"chamber": "senate",
+"party": "R",
+"central": 48,
+"mean": 47.4,
+"median": 47,
+"p10": 44,
+"p90": 51,
+"now": 53,
+"change": -5
+},
+{
+"chamber": "senate",
+"party": "I",
+"central": 2,
+"mean": 2.4,
+"median": 2,
+"p10": 2,
+"p90": 3,
+"now": 2,
+"change": 0
+},
+{
+"chamber": "house",
+"party": "D",
+"central": 231,
+"mean": 231.3,
+"median": 231,
+"p10": 217,
+"p90": 245,
+"now": 214,
+"change": 17
+},
+{
+"chamber": "house",
+"party": "R",
+"central": 204,
+"mean": 203.7,
+"median": 204,
+"p10": 190,
+"p90": 218,
+"now": 218,
+"change": -14
+},
+{
+"chamber": "house",
+"party": "I",
+"central": 0,
+"mean": 0.0,
+"median": 0,
+"p10": 0,
+"p90": 0,
+"now": 1,
+"change": -1
+},
+{
+"chamber": "governors",
+"party": "D",
+"central": 28,
+"mean": 28.0,
+"median": 28,
+"p10": 24,
+"p90": 31,
+"now": 24,
+"change": 4
+},
+{
+"chamber": "governors",
+"party": "R",
+"central": 22,
+"mean": 22.0,
+"median": 22,
+"p10": 19,
+"p90": 26,
+"now": 26,
+"change": -4
+},
+{
+"chamber": "governors",
+"party": "I",
+"central": 0,
+"mean": 0.0,
+"median": 0,
+"p10": 0,
+"p90": 0,
+"now": 0,
+"change": 0
+}
+]

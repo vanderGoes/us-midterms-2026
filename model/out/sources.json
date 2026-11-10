@@ -1,0 +1,152 @@
+[
+{
+"title": "PollCheck: US midterms 2026 polls",
+"url": "https://www.pollcheck.co.uk/us-midterms-2026",
+"used_for": "Poll-level data for every Senate and governor race with polls and generic ballot polls (updated 2 Nov); averages for 12 governor races"
+},
+{
+"title": "PollCheck: governor races",
+"url": "https://www.pollcheck.co.uk/us-midterms-2026/governors",
+"used_for": "Governor averages used for aggregate-only races, 2 Nov"
+},
+{
+"title": "Wikipedia: 2026 Senate elections",
+"url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+"used_for": "Nominees, PVI and forecaster ratings (late September)"
+},
+{
+"title": "Wikipedia: 2026 gubernatorial elections",
+"url": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+"used_for": "Nominees, PVI and ratings"
+},
+{
+"title": "Wikipedia: 2026 House election ratings",
+"url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+"used_for": "District PVI on 2026 maps and incumbents"
+},
+{
+"title": "Sabato's Crystal Ball: final 2026 ratings",
+"url": "https://centerforpolitics.org/crystalball/2026finalratings/",
+"used_for": "Final Senate, governor and House ratings, 2 Nov; benchmark seat totals"
+},
+{
+"title": "Sabato's Crystal Ball: rating changes with a week to go",
+"url": "https://centerforpolitics.org/crystalball/democrats-appear-to-hold-narrow-senate-edge-with-week-to-go-rating-changes-for-senate-house-and-governors/",
+"used_for": "Senate, governor and House changes, 27 Oct"
+},
+{
+"title": "Sabato's Crystal Ball: Louisiana and Minnesota changes",
+"url": "https://centerforpolitics.org/crystalball/a-rating-change-appetizer-senate-changes-in-louisiana-and-minnesota/",
+"used_for": "Senate changes before the final ratings"
+},
+{
+"title": "Yonkers Times: NY-17 final Crystal Ball rating",
+"url": "https://yonkerstimes.com/ny-17-moves-from-toss-up-to-lean-republican-on-sabatos-crystal-ball",
+"used_for": "Which final Crystal Ball toss-ups went to each party"
+},
+{
+"title": "Yellowhammer News: AL-2 final Crystal Ball rating",
+"url": "https://yellowhammernews.com/sabatos-crystal-ball-moves-alabamas-2nd-district-to-leans-democratic-in-final-2026-ratings/",
+"used_for": "Final Crystal Ball House totals and AL-2"
+},
+{
+"title": "270toWin: Crystal Ball governor ratings",
+"url": "https://www.270towin.com/2026-governor-election/sabatos-crystal-ball-2026-governor",
+"used_for": "Crystal Ball governor changes, 29 Sep and 6 Oct"
+},
+{
+"title": "Political.org: 2026 House elections",
+"url": "https://political.org/2026-house-elections/",
+"used_for": "Cook House changes of 23 and 30 Oct"
+},
+{
+"title": "Political.org: Cook Senate changes, 20 Oct",
+"url": "https://political.org/2026/10/20/cook-political-report-shifts-minnesota-senate-race-toward-gop-south-carolina-toward-democrats/",
+"used_for": "Cook ratings for Minnesota, South Carolina and Mississippi"
+},
+{
+"title": "Washington Post via DNyuz: Cook governor changes",
+"url": "https://dnyuz.com/?p=299745",
+"used_for": "Cook governor changes, 13 Oct"
+},
+{
+"title": "270toWin: Cook House ratings table",
+"url": "https://270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings",
+"used_for": "Cook House ratings, 23 Oct"
+},
+{
+"title": "270toWin: Sabato House ratings table",
+"url": "https://www.270towin.com/2026-house-election/table/crystal-ball-2026-house-forecast/",
+"used_for": "Crystal Ball House ratings, 27 Oct"
+},
+{
+"title": "270toWin: Inside Elections House table",
+"url": "https://www.270towin.com/2026-house-election/table/inside-elections-2026-house-ratings/",
+"used_for": "Inside Elections House ratings, 15 Oct"
+},
+{
+"title": "270toWin: House consensus table",
+"url": "https://www.270towin.com/2026-house-election/table/consensus-2026-house-forecast/",
+"used_for": "Consensus ratings and safe-seat totals, 23 Oct"
+},
+{
+"title": "270toWin: Senate forecasts page",
+"url": "https://www.270towin.com/2026-senate-election-predictions/",
+"used_for": "October Senate rating changes"
+},
+{
+"title": "FiveThirtyEight pollster-ratings data",
+"url": "https://github.com/fivethirtyeight/data/tree/master/pollster-ratings",
+"used_for": "Historical polls 1998-2022 and 2024 pollster ratings: pollster accuracy, sponsored-poll lean, state misses, margin compression"
+},
+{
+"title": "ABC News/538: 2024 polls underestimated Trump",
+"url": "https://abcnews.com/538/2024-polls-accurate-underestimated-trump/story?id=115652118",
+"used_for": "2024 polling bias"
+},
+{
+"title": "RealClearPolling: polls undercounted Democrats (2025)",
+"url": "https://www.realclearpolling.com/stories/analysis/how-polls-undercounted-democratic-support-on-tuesday",
+"used_for": "2025 New Jersey and Virginia polling misses"
+},
+{
+"title": "Silver Bulletin: 2025 pollster review",
+"url": "https://www.natesilver.net/p/actually-sometimes-polls-underestimate",
+"used_for": "2025 pollster performance adjustments"
+},
+{
+"title": "Policymap: redistricting tracker",
+"url": "https://www.policymap.com/blog/redistricting-tracker",
+"used_for": "Which new maps are in force"
+},
+{
+"title": "Ballotpedia: redistricting ahead of 2026",
+"url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+"used_for": "Mid-decade redistricting background"
+},
+{
+"title": "Just the News: Kiley advances as independent",
+"url": "https://justthenews.com/politics-policy/elections/former-republican-kevin-kiley-advances-california-general-election",
+"used_for": "CA-6 independent incumbent"
+},
+{
+"title": "Newsweek: final polls and forecasts, 2 Nov",
+"url": "https://www.newsweek.com/nate-silver-says-gop-could-be-in-for-long-night-as-final-polls-drop-12648643",
+"used_for": "Benchmark (Silver Bulletin, Race to the WH)"
+},
+{
+"title": "Decision Desk HQ: 2026 forecast",
+"url": "https://votes.decisiondeskhq.com/forecast/2026",
+"used_for": "Benchmark"
+},
+{
+"title": "Kalshi: 2026 midterm predictions",
+"url": "https://news.kalshi.com/p/2026-midterm-predictions",
+"used_for": "Benchmark (market prices, Cook House rating totals)"
+},
+{
+"title": "Dave Manuel: 2026 midterm forecast",
+"url": "https://www.davemanuel.com/2026-midterm-forecast.php",
+"used_for": "Benchmark (24 Oct)"
+}
+]

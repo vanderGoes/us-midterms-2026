@@ -1,0 +1,270 @@
+<meta name="dash-one-writer">
+<link rel="stylesheet" href="style.css">
+<div class="mt">
+<header id="top">
+  <h1 class="mt-title">US 2026 midterms: results and forecast</h1>
+</header>
+<p class="mt-take">Calls checked up to <b data-draw="v" data-source="params" data-field="value" data-where="key=as_of">—</b>. Called so far: <b data-draw="v" data-source="params" data-field="value" data-where="key=called_sen" data-fmt="int">—</b> of <b data-draw="v" data-source="params" data-field="value" data-where="key=sen_up" data-fmt="int">—</b> Senate races, <b data-draw="v" data-source="params" data-field="value" data-where="key=called_gov" data-fmt="int">—</b> of <b data-draw="v" data-source="params" data-field="value" data-where="key=gov_up" data-fmt="int">—</b> governor races and <b data-draw="v" data-source="params" data-field="value" data-where="key=called_house" data-fmt="int">—</b> of the <b data-draw="v" data-source="params" data-field="value" data-where="key=house_detail" data-fmt="int">—</b> competitive House districts. With the forecast filling in every race not yet called, Democrats have a <b data-draw="v" data-source="control" data-field="prob_now" data-where="chamber=senate&amp;outcome=D" data-fmt="pct">—</b> chance of Senate control (forecast: <b data-draw="v" data-source="control" data-field="prob_pre" data-where="chamber=senate&amp;outcome=D" data-fmt="pct">—</b>), <b data-draw="v" data-source="control" data-field="prob_now" data-where="chamber=house&amp;outcome=D" data-fmt="pct">—</b> for the House (<b data-draw="v" data-source="control" data-field="prob_pre" data-where="chamber=house&amp;outcome=D" data-fmt="pct">—</b>) and <b data-draw="v" data-source="control" data-field="prob_now" data-where="chamber=governors&amp;outcome=D" data-fmt="pct">—</b> for a majority of governorships (<b data-draw="v" data-source="control" data-field="prob_pre" data-where="chamber=governors&amp;outcome=D" data-fmt="pct">—</b>). Called races won by the forecast's underdog: <b data-draw="v" data-source="params" data-field="value" data-where="key=upsets" data-fmt="int">—</b>. Control projected by the networks: Senate, <b data-draw="v" data-source="params" data-field="value" data-where="key=control_senate">—</b>; House, <b data-draw="v" data-source="params" data-field="value" data-where="key=control_house">—</b>.</p>
+<p class="mt-note mt-banner">A race counts as called once AP, or at least two of NBC, CNN, Fox News, ABC and CBS, have projected a winner. Vote counts are not used. This page is a snapshot. It was last refreshed with calls checked to 07:50 ET on 4 November and is no longer updated.</p>
+
+<nav class="mt-tabs" role="tablist" aria-label="Sections">
+  <button class="mt-tab" role="tab" data-tab="overview" aria-selected="true">Overview</button>
+  <button class="mt-tab" role="tab" data-tab="senate" aria-selected="false">Senate</button>
+  <button class="mt-tab" role="tab" data-tab="governors" aria-selected="false">Governors</button>
+  <button class="mt-tab" role="tab" data-tab="house" aria-selected="false">House</button>
+  <button class="mt-tab" role="tab" data-tab="calls" aria-selected="false">Calls log</button>
+  <button class="mt-tab" role="tab" data-tab="method" aria-selected="false">How this works</button>
+</nav>
+
+<section id="overview" data-page="overview">
+  <div class="mt-legend mt-keyrow">
+    <span><span class="mt-sw d"></span><span class="mt-sw r"></span>Won or not up (House: safe or called)</span>
+    <span><span class="mt-sw d lt"></span><span class="mt-sw r lt"></span>Not called, favored 60% or more</span>
+    <span><span class="mt-sw tu"></span>Not called, toss-up</span>
+    <span><span class="mt-sw dash"></span>Majority</span>
+  </div>
+  <div class="mt-grid">
+    <div class="mt-card" id="tile-senate">
+      <h3>Senate</h3>
+      <div class="mt-seats">
+        <div><div class="mt-lab"><span class="mt-sw d"></span>Democrats</div><div class="mt-num" data-draw="v" data-source="summary" data-field="secured" data-where="chamber=senate&amp;party=D" data-fmt="int">—</div><div class="mt-sub">won or not up</div><div class="mt-sub">Expected <span data-draw="v" data-source="summary" data-field="mean" data-where="chamber=senate&amp;party=D" data-fmt="dec1">—</span></div><div class="mt-sub">80%: <span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=senate&amp;party=D" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=senate&amp;party=D" data-fmt="int">—</span></div></div>
+        <div><div class="mt-lab"><span class="mt-sw r"></span>Republicans</div><div class="mt-num" data-draw="v" data-source="summary" data-field="secured" data-where="chamber=senate&amp;party=R" data-fmt="int">—</div><div class="mt-sub">won or not up</div><div class="mt-sub">Expected <span data-draw="v" data-source="summary" data-field="mean" data-where="chamber=senate&amp;party=R" data-fmt="dec1">—</span></div><div class="mt-sub">80%: <span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=senate&amp;party=R" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=senate&amp;party=R" data-fmt="int">—</span></div></div>
+        <div><div class="mt-lab"><span class="mt-sw i"></span>Independents</div><div class="mt-num" data-draw="v" data-source="summary" data-field="secured" data-where="chamber=senate&amp;party=I" data-fmt="int">—</div><div class="mt-sub">won or not up</div><div class="mt-sub">Expected <span data-draw="v" data-source="summary" data-field="mean" data-where="chamber=senate&amp;party=I" data-fmt="dec1">—</span></div><div class="mt-sub">80%: <span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=senate&amp;party=I" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=senate&amp;party=I" data-fmt="int">—</span></div></div>
+      </div>
+      <div class="mt-chart bar" id="bar-senate" data-draw="seatbar" data-source="seatbar" data-chamber="senate"></div>
+      <div class="mt-ctrl">
+        <div><span class="mt-sw d"></span>Democratic control, with Sanders and King: <b data-draw="v" data-source="control" data-field="prob_now" data-where="chamber=senate&amp;outcome=D" data-fmt="pct">—</b> <span class="mt-was">forecast <span data-draw="v" data-source="control" data-field="prob_pre" data-where="chamber=senate&amp;outcome=D" data-fmt="pct">—</span></span></div>
+        <div><span class="mt-sw r"></span>Republican control, VP Vance breaks a tie: <b data-draw="v" data-source="control" data-field="prob_now" data-where="chamber=senate&amp;outcome=R" data-fmt="pct">—</b> <span class="mt-was">forecast <span data-draw="v" data-source="control" data-field="prob_pre" data-where="chamber=senate&amp;outcome=R" data-fmt="pct">—</span></span></div>
+        <div><span class="mt-sw i"></span>Depends on newly elected independents: <b data-draw="v" data-source="control" data-field="prob_now" data-where="chamber=senate&amp;outcome=other" data-fmt="pct">—</b> <span class="mt-was">forecast <span data-draw="v" data-source="control" data-field="prob_pre" data-where="chamber=senate&amp;outcome=other" data-fmt="pct">—</span></span></div>
+      </div>
+    </div>
+
+    <div class="mt-card" id="tile-house">
+      <h3>House</h3>
+      <div class="mt-seats">
+        <div><div class="mt-lab"><span class="mt-sw d"></span>Democrats</div><div class="mt-num" data-draw="v" data-source="summary" data-field="secured" data-where="chamber=house&amp;party=D" data-fmt="int">—</div><div class="mt-sub">safe or called</div><div class="mt-sub">Expected <span data-draw="v" data-source="summary" data-field="mean" data-where="chamber=house&amp;party=D" data-fmt="dec1">—</span></div><div class="mt-sub">80%: <span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=house&amp;party=D" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=house&amp;party=D" data-fmt="int">—</span></div></div>
+        <div><div class="mt-lab"><span class="mt-sw r"></span>Republicans</div><div class="mt-num" data-draw="v" data-source="summary" data-field="secured" data-where="chamber=house&amp;party=R" data-fmt="int">—</div><div class="mt-sub">safe or called</div><div class="mt-sub">Expected <span data-draw="v" data-source="summary" data-field="mean" data-where="chamber=house&amp;party=R" data-fmt="dec1">—</span></div><div class="mt-sub">80%: <span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=house&amp;party=R" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=house&amp;party=R" data-fmt="int">—</span></div></div>
+        <div><div class="mt-lab"><span class="mt-sw i"></span>Independents</div><div class="mt-num" data-draw="v" data-source="summary" data-field="secured" data-where="chamber=house&amp;party=I" data-fmt="int">—</div><div class="mt-sub">safe or called</div><div class="mt-sub">Expected <span data-draw="v" data-source="summary" data-field="mean" data-where="chamber=house&amp;party=I" data-fmt="dec1">—</span></div><div class="mt-sub">80%: <span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=house&amp;party=I" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=house&amp;party=I" data-fmt="int">—</span></div></div>
+      </div>
+      <div class="mt-chart bar" id="bar-house" data-draw="seatbar" data-source="seatbar" data-chamber="house"></div>
+      <div class="mt-ctrl">
+        <div><span class="mt-sw d"></span>Democrats reach a majority: <b data-draw="v" data-source="control" data-field="prob_now" data-where="chamber=house&amp;outcome=D" data-fmt="pct">—</b> <span class="mt-was">forecast <span data-draw="v" data-source="control" data-field="prob_pre" data-where="chamber=house&amp;outcome=D" data-fmt="pct">—</span></span></div>
+        <div><span class="mt-sw r"></span>Republicans reach a majority: <b data-draw="v" data-source="control" data-field="prob_now" data-where="chamber=house&amp;outcome=R" data-fmt="pct">—</b> <span class="mt-was">forecast <span data-draw="v" data-source="control" data-field="prob_pre" data-where="chamber=house&amp;outcome=R" data-fmt="pct">—</span></span></div>
+        <div><span class="mt-sw i"></span>No party reaches a majority: <b data-draw="v" data-source="control" data-field="prob_now" data-where="chamber=house&amp;outcome=other" data-fmt="pct">—</b> <span class="mt-was">forecast <span data-draw="v" data-source="control" data-field="prob_pre" data-where="chamber=house&amp;outcome=other" data-fmt="pct">—</span></span></div>
+      </div>
+    </div>
+
+    <div class="mt-card" id="tile-governors">
+      <h3>Governors</h3>
+      <div class="mt-seats">
+        <div><div class="mt-lab"><span class="mt-sw d"></span>Democrats</div><div class="mt-num" data-draw="v" data-source="summary" data-field="secured" data-where="chamber=governors&amp;party=D" data-fmt="int">—</div><div class="mt-sub">won or not up</div><div class="mt-sub">Expected <span data-draw="v" data-source="summary" data-field="mean" data-where="chamber=governors&amp;party=D" data-fmt="dec1">—</span></div><div class="mt-sub">80%: <span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=governors&amp;party=D" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=governors&amp;party=D" data-fmt="int">—</span></div></div>
+        <div><div class="mt-lab"><span class="mt-sw r"></span>Republicans</div><div class="mt-num" data-draw="v" data-source="summary" data-field="secured" data-where="chamber=governors&amp;party=R" data-fmt="int">—</div><div class="mt-sub">won or not up</div><div class="mt-sub">Expected <span data-draw="v" data-source="summary" data-field="mean" data-where="chamber=governors&amp;party=R" data-fmt="dec1">—</span></div><div class="mt-sub">80%: <span data-draw="v" data-source="summary" data-field="p10" data-where="chamber=governors&amp;party=R" data-fmt="int">—</span> to <span data-draw="v" data-source="summary" data-field="p90" data-where="chamber=governors&amp;party=R" data-fmt="int">—</span></div></div>
+      </div>
+      <div class="mt-chart bar" id="bar-governors" data-draw="seatbar" data-source="seatbar" data-chamber="governors"></div>
+      <div class="mt-ctrl">
+        <div><span class="mt-sw d"></span>Democrats hold a majority of governorships: <b data-draw="v" data-source="control" data-field="prob_now" data-where="chamber=governors&amp;outcome=D" data-fmt="pct">—</b> <span class="mt-was">forecast <span data-draw="v" data-source="control" data-field="prob_pre" data-where="chamber=governors&amp;outcome=D" data-fmt="pct">—</span></span></div>
+        <div><span class="mt-sw r"></span>Republicans hold a majority: <b data-draw="v" data-source="control" data-field="prob_now" data-where="chamber=governors&amp;outcome=R" data-fmt="pct">—</b> <span class="mt-was">forecast <span data-draw="v" data-source="control" data-field="prob_pre" data-where="chamber=governors&amp;outcome=R" data-fmt="pct">—</span></span></div>
+        <div><span class="mt-sw i"></span>Even split: <b data-draw="v" data-source="control" data-field="prob_now" data-where="chamber=governors&amp;outcome=other" data-fmt="pct">—</b> <span class="mt-was">forecast <span data-draw="v" data-source="control" data-field="prob_pre" data-where="chamber=governors&amp;outcome=other" data-fmt="pct">—</span></span></div>
+      </div>
+    </div>
+  </div>
+  <p class="mt-note">Expected: the average number of seats across simulated elections in which every called race goes to its winner. 80%: the middle 80% of those simulations. The forecast figures are the published forecast of 3 November, before any results.</p>
+
+  <div class="mt-grid two">
+    <div class="mt-card">
+      <h3>Closest statewide races not yet called</h3>
+      <p class="mt-note">Win chance of the current favorite, now and in the forecast. Calls elsewhere move these numbers through the polling error that races share.</p>
+      <div class="mt-tablewrap short">
+        <table class="mt-table" id="watch-table" data-source="watch" data-row-key="race">
+          <thead><tr>
+            <th data-field="race">Race</th>
+            <th data-field="fav_name">Favored</th>
+            <th class="r" data-field="p_fav" data-fmt="pct">Now</th>
+            <th class="r" data-field="p_fav_pre" data-fmt="pct">Forecast</th>
+            <th data-field="flip_if_fav">Seat would flip</th>
+          </tr></thead>
+          <tbody data-draw="tbl"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="mt-card">
+      <h3>Latest calls</h3>
+      <p class="mt-note">Most recent first. The full list, with sources and calls not yet counted, is under Calls log.</p>
+      <div class="mt-tablewrap short">
+        <table class="mt-table" id="latest-table" data-source="latest" data-row-key="race">
+          <thead><tr>
+            <th data-field="race">Race</th>
+            <th data-field="winner">Winner</th>
+            <th data-field="party">Party</th>
+            <th data-field="called_by">Called by</th>
+          </tr></thead>
+          <tbody data-draw="tbl"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="mt-h2">Seat distributions given the calls so far</h2>
+  <div class="mt-grid">
+    <div class="mt-card"><h3>Senate: Democratic seats</h3><p class="mt-note">Share of simulations ending with each number of Democratic seats. Bars at or right of the dashed line give Democrats a majority together with Sanders and King.</p><div class="mt-chart" id="dist-senate" data-draw="dist" data-source="seat_dist" data-chamber="senate"></div></div>
+    <div class="mt-card"><h3>House: Democratic seats</h3><p class="mt-note">Share of simulations ending with each number of Democratic seats. The dashed line marks a majority.</p><div class="mt-chart" id="dist-house" data-draw="dist" data-source="seat_dist" data-chamber="house"></div></div>
+    <div class="mt-card"><h3>Governors: Democratic governorships</h3><p class="mt-note">Share of simulations ending with each number of Democratic governors. The dashed line marks a majority of states.</p><div class="mt-chart" id="dist-governors" data-draw="dist" data-source="seat_dist" data-chamber="governors"></div></div>
+  </div>
+</section>
+
+<section id="senate" data-page="senate" hidden>
+  <p class="mt-note">Positive margins favor the Democrat, or the independent where an independent is the main challenger (Nebraska, Idaho, South Dakota, Montana). Margins are two-party percentage points from the model, not vote counts.</p>
+  <div class="mt-card">
+    <h3>Senate races not yet called: model margin and 80% range, given the calls so far</h3>
+    <p class="mt-note">Dot: expected margin. Line: the middle 80% of simulated outcomes. Color: the favored party. Races rated safe are left out unless the favorite would flip the seat; the table has every race.</p>
+    <div class="mt-chart tall" id="sen-dots" data-draw="dots" data-source="senate_open"></div>
+  </div>
+  <h2 class="mt-h2">All Senate races</h2>
+  <div class="mt-card">
+    <p class="mt-note">Win chance is for the Democrat, or the independent where one is the main challenger. Forecast: before any results. Click a column to sort.</p>
+    <input class="mt-search" type="search" placeholder="Search races" aria-label="Search Senate races">
+    <div class="mt-tablewrap">
+      <table class="mt-table wide" id="sen-table" data-source="senate_races" data-row-key="race">
+        <thead><tr>
+          <th data-field="race" aria-sort="none"><button class="mt-sort">Race</button></th>
+          <th data-field="status" aria-sort="none"><button class="mt-sort">Status</button></th>
+          <th data-field="winner" aria-sort="none"><button class="mt-sort">Winner</button></th>
+          <th data-field="called_by" aria-sort="none"><button class="mt-sort">Called by</button></th>
+          <th data-field="holder" aria-sort="none"><button class="mt-sort">Held by</button></th>
+          <th data-field="dem" aria-sort="none"><button class="mt-sort">D or I candidate</button></th>
+          <th data-field="rep" aria-sort="none"><button class="mt-sort">R candidate</button></th>
+          <th class="r" data-field="p_pre" data-fmt="pct" aria-sort="none"><button class="mt-sort">Win chance, forecast</button></th>
+          <th class="r" data-field="p_win" data-fmt="pct" aria-sort="none"><button class="mt-sort">Win chance, now</button></th>
+          <th class="r" data-field="margin" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Margin now</button></th>
+          <th class="r" data-field="margin_lo" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">80% low</button></th>
+          <th class="r" data-field="margin_hi" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">80% high</button></th>
+          <th data-field="rating_now" aria-sort="none"><button class="mt-sort">Rating now</button></th>
+          <th data-field="rating_pre" aria-sort="none"><button class="mt-sort">Forecast rating</button></th>
+          <th data-field="flip" aria-sort="none"><button class="mt-sort">Seat changed party</button></th>
+          <th data-field="upset" aria-sort="none"><button class="mt-sort">Underdog won</button></th>
+        </tr></thead>
+        <tbody data-draw="tbl"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="governors" data-page="governors" hidden>
+  <p class="mt-note">Positive margins favor the Democrat. Margins are two-party percentage points from the model, not vote counts.</p>
+  <div class="mt-card">
+    <h3>Governor races not yet called: model margin and 80% range, given the calls so far</h3>
+    <p class="mt-note">Dot: expected margin. Line: the middle 80% of simulated outcomes. Color: the favored party. Races rated safe are left out unless the favorite would flip the seat; the table has every race.</p>
+    <div class="mt-chart tall" id="gov-dots" data-draw="dots" data-source="governor_open"></div>
+  </div>
+  <h2 class="mt-h2">All governor races</h2>
+  <div class="mt-card">
+    <p class="mt-note">Win chance is for the Democrat. Forecast: before any results. Click a column to sort.</p>
+    <input class="mt-search" type="search" placeholder="Search races" aria-label="Search governor races">
+    <div class="mt-tablewrap">
+      <table class="mt-table wide" id="gov-table" data-source="governor_races" data-row-key="race">
+        <thead><tr>
+          <th data-field="race" aria-sort="none"><button class="mt-sort">Race</button></th>
+          <th data-field="status" aria-sort="none"><button class="mt-sort">Status</button></th>
+          <th data-field="winner" aria-sort="none"><button class="mt-sort">Winner</button></th>
+          <th data-field="called_by" aria-sort="none"><button class="mt-sort">Called by</button></th>
+          <th data-field="holder" aria-sort="none"><button class="mt-sort">Held by</button></th>
+          <th data-field="dem" aria-sort="none"><button class="mt-sort">D candidate</button></th>
+          <th data-field="rep" aria-sort="none"><button class="mt-sort">R candidate</button></th>
+          <th class="r" data-field="p_pre" data-fmt="pct" aria-sort="none"><button class="mt-sort">Win chance, forecast</button></th>
+          <th class="r" data-field="p_win" data-fmt="pct" aria-sort="none"><button class="mt-sort">Win chance, now</button></th>
+          <th class="r" data-field="margin" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Margin now</button></th>
+          <th class="r" data-field="margin_lo" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">80% low</button></th>
+          <th class="r" data-field="margin_hi" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">80% high</button></th>
+          <th data-field="rating_now" aria-sort="none"><button class="mt-sort">Rating now</button></th>
+          <th data-field="rating_pre" aria-sort="none"><button class="mt-sort">Forecast rating</button></th>
+          <th data-field="flip" aria-sort="none"><button class="mt-sort">Seat changed party</button></th>
+          <th data-field="upset" aria-sort="none"><button class="mt-sort">Underdog won</button></th>
+        </tr></thead>
+        <tbody data-draw="tbl"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="house" data-page="house" hidden>
+  <div class="mt-grid four">
+    <div class="mt-card"><div class="mt-lab">Safe Democratic seats</div><div class="mt-num" data-draw="v" data-source="params" data-field="value" data-where="key=safe_d" data-fmt="int">—</div><div class="mt-sub">Counted as won, not checked against calls</div></div>
+    <div class="mt-card"><div class="mt-lab">Safe Republican seats</div><div class="mt-num" data-draw="v" data-source="params" data-field="value" data-where="key=safe_r" data-fmt="int">—</div><div class="mt-sub">Counted as won, not checked against calls</div></div>
+    <div class="mt-card"><div class="mt-lab">Competitive districts called</div><div class="mt-num" data-draw="v" data-source="params" data-field="value" data-where="key=called_house" data-fmt="int">—</div><div class="mt-sub">of <span data-draw="v" data-source="params" data-field="value" data-where="key=house_detail" data-fmt="int">—</span> rated below safe by a forecaster</div></div>
+  </div>
+  <div class="mt-card">
+    <h3>Competitive districts: Democratic win chance now</h3>
+    <p class="mt-note">One bar per district, sorted by the Democratic win chance. Bars above the dashed line favor Democrats. Called districts are drawn solid at 0% or 100%; the rest are lighter.</p>
+    <div class="mt-chart" id="house-ladder" data-draw="ladder" data-source="house_races"></div>
+  </div>
+  <h2 class="mt-h2">All competitive districts</h2>
+  <div class="mt-card">
+    <p class="mt-note">Win chance is for the Democrat (in CA-6, against independent Kevin Kiley). Forecast: before any results. Click a column to sort.</p>
+    <input class="mt-search" type="search" placeholder="Search districts" aria-label="Search House districts">
+    <div class="mt-tablewrap">
+      <table class="mt-table wide" id="house-table" data-source="house_races" data-row-key="district">
+        <thead><tr>
+          <th data-field="district" aria-sort="none"><button class="mt-sort">District</button></th>
+          <th data-field="status" aria-sort="none"><button class="mt-sort">Status</button></th>
+          <th data-field="winner" aria-sort="none"><button class="mt-sort">Winner</button></th>
+          <th data-field="called_by" aria-sort="none"><button class="mt-sort">Called by</button></th>
+          <th data-field="holder" aria-sort="none"><button class="mt-sort">Held by</button></th>
+          <th data-field="pvi" aria-sort="none"><button class="mt-sort">PVI</button></th>
+          <th data-field="cook" aria-sort="none"><button class="mt-sort">Cook</button></th>
+          <th data-field="sabato" aria-sort="none"><button class="mt-sort">Sabato</button></th>
+          <th data-field="ie" aria-sort="none"><button class="mt-sort">Inside Elections</button></th>
+          <th class="r" data-field="p_pre" data-fmt="pct" aria-sort="none"><button class="mt-sort">D win, forecast</button></th>
+          <th class="r" data-field="p_win" data-fmt="pct" aria-sort="none"><button class="mt-sort">D win, now</button></th>
+          <th class="r" data-field="margin" data-fmt="sdec1" aria-sort="none"><button class="mt-sort">Margin now</button></th>
+          <th data-field="rating_now" aria-sort="none"><button class="mt-sort">Rating now</button></th>
+          <th data-field="flip" aria-sort="none"><button class="mt-sort">Seat changed party</button></th>
+          <th data-field="upset" aria-sort="none"><button class="mt-sort">Underdog won</button></th>
+        </tr></thead>
+        <tbody data-draw="tbl"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="calls" data-page="calls" hidden>
+  <div class="mt-card">
+    <h3>Calls log</h3>
+    <p class="mt-note">Counted: called by AP, or by at least two of NBC, CNN, Fox News, ABC and CBS. Not yet counted: seen from one outlet only, or from an outlet outside that list such as Decision Desk HQ; these do not move any numbers. Seen: when the call was first found here, Eastern Time, not the time it was made. Winner's forecast chance: the winner's win probability before any results.</p>
+    <input class="mt-search" type="search" placeholder="Search calls" aria-label="Search calls">
+    <div class="mt-tablewrap">
+      <table class="mt-table mid" id="calls-table" data-source="calls" data-row-key="id">
+        <thead><tr>
+          <th data-field="race" aria-sort="none"><button class="mt-sort">Race</button></th>
+          <th data-field="winner" aria-sort="none"><button class="mt-sort">Winner</button></th>
+          <th data-field="party" aria-sort="none"><button class="mt-sort">Party</button></th>
+          <th data-field="called_by" aria-sort="none"><button class="mt-sort">Called by</button></th>
+          <th data-field="status" aria-sort="none"><button class="mt-sort">Status</button></th>
+          <th data-field="seen_et" aria-sort="none"><button class="mt-sort">Seen (ET)</button></th>
+          <th class="r" data-field="p_pre_winner" data-fmt="pct" aria-sort="none"><button class="mt-sort">Winner's forecast chance</button></th>
+          <th data-field="flip" aria-sort="none"><button class="mt-sort">Seat changed party</button></th>
+          <th data-field="note" aria-sort="none"><button class="mt-sort">Note</button></th>
+          <th data-field="source" data-link="url" aria-sort="none"><button class="mt-sort">Source</button></th>
+        </tr></thead>
+        <tbody data-draw="tbl"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="method" data-page="method" hidden>
+  <div class="mt-p">
+    <ul>
+      <li><b>Called races.</b> A race counts once AP, or at least two of NBC, CNN, Fox News, ABC and CBS, have projected a winner. Calls were collected through web searches of those outlets' live coverage and results pages, so a call can show up here a while after it was made. Ratings such as "leans Democratic" or "too early to call" are not calls.</li>
+      <li><b>Races not yet called.</b> These come from the forecast of 3 November: the same poll averages, priors and error structure. Seats not up, <span data-draw="v" data-source="params" data-field="value" data-where="key=sen_hold_d" data-fmt="int">—</span> Democratic, <span data-draw="v" data-source="params" data-field="value" data-where="key=sen_hold_r" data-fmt="int">—</span> Republican and <span data-draw="v" data-source="params" data-field="value" data-where="key=sen_hold_i" data-fmt="int">—</span> independent senators and <span data-draw="v" data-source="params" data-field="value" data-where="key=gov_hold_d" data-fmt="int">—</span> Democratic and <span data-draw="v" data-source="params" data-field="value" data-where="key=gov_hold_r" data-fmt="int">—</span> Republican governors, are added as before.</li>
+      <li><b>How calls move the open races.</b> In the forecast every race shares a national polling error, races in a region share a regional error and races in a state share a state error. A call tells us something about those errors: when a race the forecast saw as close is called, simulations whose shared errors fit that result become more likely. Technically, <span data-draw="v" data-source="params" data-field="value" data-where="key=draws" data-fmt="int">—</span> draws of the shared errors are weighted by the exact probability that every called race goes the way it was called, then <span data-draw="v" data-source="params" data-field="value" data-where="key=nsim" data-fmt="int">—</span> simulated elections are drawn from them. The effective number of distinct draws after weighting is <span data-draw="v" data-source="params" data-field="value" data-where="key=ess" data-fmt="int">—</span>. Across those draws the national polling miss now averages <span data-draw="v" data-source="params" data-field="value" data-where="key=nat_shift" data-fmt="sdec2">—</span> points toward Democrats; before any calls it was zero. Early in the night the races that get called are the ones already clear in the count, while a race that is close in the count but not called is not adjusted for that, so this shift can run ahead of the final picture or behind it.</li>
+      <li><b>House.</b> The <span data-draw="v" data-source="params" data-field="value" data-where="key=house_detail" data-fmt="int">—</span> districts that any forecaster rated below safe are modelled one by one and take calls like the statewide races. The other <span data-draw="v" data-source="params" data-field="value" data-where="key=safe_d" data-fmt="int">—</span> Democratic and <span data-draw="v" data-source="params" data-field="value" data-where="key=safe_r" data-fmt="int">—</span> Republican seats are counted for the party they are rated safe for. An upset in one of them would not show here.</li>
+      <li><b>What is not used.</b> Vote counts, the share of the vote counted, exit polls and network ratings. A race that is close in the count but not called stays at its forecast distribution, adjusted only through the calls elsewhere.</li>
+      <li><b>Limits.</b> Maine and Alaska count ranked-choice ballots, and close races can take days, so some races were still open at the last refresh. Calls are occasionally withdrawn; none of the calls used here had been withdrawn when they were checked.</li>
+      <li><b>Counting.</b> By ballot label, as in the forecast. Sanders and King, and any newly elected independent, count as I. Democrats need a majority including Sanders and King for Senate control; Republicans keep control at a tie through Vice President Vance.</li>
+    </ul>
+    <h2 class="mt-h2">Sources</h2>
+    <ul class="mt-src" data-draw="srcs" data-source="sources"></ul>
+  </div>
+</section>
+</div>
+<script src="app.js"></script>

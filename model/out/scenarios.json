@@ -1,0 +1,106 @@
+[
+{
+"shift": -6,
+"senate_dem_control": 0.17,
+"house_dem_control": 0.281,
+"senate_dem_seats": 45.7,
+"house_dem_seats": 212.1,
+"governors_dem": 22.9
+},
+{
+"shift": -5,
+"senate_dem_control": 0.248,
+"house_dem_control": 0.395,
+"senate_dem_seats": 46.5,
+"house_dem_seats": 215.1,
+"governors_dem": 23.7
+},
+{
+"shift": -4,
+"senate_dem_control": 0.344,
+"house_dem_control": 0.514,
+"senate_dem_seats": 47.2,
+"house_dem_seats": 218.2,
+"governors_dem": 24.6
+},
+{
+"shift": -3,
+"senate_dem_control": 0.451,
+"house_dem_control": 0.633,
+"senate_dem_seats": 48.0,
+"house_dem_seats": 221.4,
+"governors_dem": 25.5
+},
+{
+"shift": -2,
+"senate_dem_control": 0.562,
+"house_dem_control": 0.739,
+"senate_dem_seats": 48.8,
+"house_dem_seats": 224.7,
+"governors_dem": 26.3
+},
+{
+"shift": -1,
+"senate_dem_control": 0.673,
+"house_dem_control": 0.828,
+"senate_dem_seats": 49.5,
+"house_dem_seats": 228.0,
+"governors_dem": 27.2
+},
+{
+"shift": 0,
+"senate_dem_control": 0.765,
+"house_dem_control": 0.894,
+"senate_dem_seats": 50.2,
+"house_dem_seats": 231.3,
+"governors_dem": 28.0
+},
+{
+"shift": 1,
+"senate_dem_control": 0.843,
+"house_dem_control": 0.94,
+"senate_dem_seats": 50.8,
+"house_dem_seats": 234.6,
+"governors_dem": 28.7
+},
+{
+"shift": 2,
+"senate_dem_control": 0.901,
+"house_dem_control": 0.969,
+"senate_dem_seats": 51.4,
+"house_dem_seats": 237.8,
+"governors_dem": 29.5
+},
+{
+"shift": 3,
+"senate_dem_control": 0.941,
+"house_dem_control": 0.984,
+"senate_dem_seats": 51.9,
+"house_dem_seats": 241.1,
+"governors_dem": 30.2
+},
+{
+"shift": 4,
+"senate_dem_control": 0.968,
+"house_dem_control": 0.993,
+"senate_dem_seats": 52.4,
+"house_dem_seats": 244.4,
+"governors_dem": 30.8
+},
+{
+"shift": 5,
+"senate_dem_control": 0.983,
+"house_dem_control": 0.997,
+"senate_dem_seats": 52.8,
+"house_dem_seats": 247.5,
+"governors_dem": 31.5
+},
+{
+"shift": 6,
+"senate_dem_control": 0.992,
+"house_dem_control": 0.999,
+"senate_dem_seats": 53.2,
+"house_dem_seats": 250.6,
+"governors_dem": 32.1
+}
+]

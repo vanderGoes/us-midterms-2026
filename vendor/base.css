@@ -1,0 +1,11 @@
+:root{--font-anthropic-sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;--font-anthropic-serif:Georgia,"Times New Roman",serif;
+--color-fg:#1f1e1d;--color-fg-muted:#6b6966;--color-bg:#ffffff;--color-panel:#f7f6f3;--color-border-line:#e3e1dc;--color-bad:#b3261e;--color-ok:#2e7d32;--color-warn:#b26a00;
+--cds-border:#e3e1dc;--cds-chart-axis:#8a8780;--cds-chart-grid:#ecebe7;--cds-chart-muted:#c9c6bf;--cds-chart-reference:#55524d;--cds-dur-slow:300ms;
+--cds-font-size-body:15px;--cds-font-size-caption:12.5px;--cds-font-size-heading:18px;--cds-font-size-title:26px;--cds-font-weight-medium:600;
+--cds-gap-xs:4px;--cds-gap-sm:8px;--cds-gap-md:12px;--cds-gap-lg:24px;--cds-pad-xs:4px;--cds-pad-sm:8px;--cds-pad-md:12px;--cds-pad-lg:20px;--cds-radius:8px;
+--cds-shadow-popover:0 4px 16px rgba(0,0,0,.15);--cds-surface-popover:#ffffff;--cds-text-secondary:#6b6966}
+@media (prefers-color-scheme:dark){:root{--color-fg:#ecebe8;--color-fg-muted:#a9a6a0;--color-bg:#1c1b1a;--color-panel:#262523;--color-border-line:#3a3936;
+--cds-border:#3a3936;--cds-chart-axis:#8f8c86;--cds-chart-grid:#2f2e2c;--cds-chart-muted:#55534f;--cds-chart-reference:#c9c6bf;--cds-surface-popover:#2b2a28;--cds-text-secondary:#a9a6a0}}
+html,body{margin:0;background:var(--color-bg);color:var(--color-fg);font-family:var(--font-anthropic-sans)}
+#dash-root{max-width:1200px;margin:0 auto;padding:24px 16px 48px}
+.mt-foot{margin-top:32px;font-size:12.5px;color:var(--color-fg-muted)}

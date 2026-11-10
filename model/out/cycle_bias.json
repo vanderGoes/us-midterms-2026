@@ -1,0 +1,65 @@
+[
+{
+"cycle": 2010,
+"kind": "Midterm",
+"state_poll_bias": -0.68,
+"generic_bias": -0.33,
+"source": "538 raw polls, own calc"
+},
+{
+"cycle": 2012,
+"kind": "Presidential",
+"state_poll_bias": -2.38,
+"generic_bias": -0.81,
+"source": "538 raw polls, own calc"
+},
+{
+"cycle": 2014,
+"kind": "Midterm",
+"state_poll_bias": 3.13,
+"generic_bias": 3.16,
+"source": "538 raw polls, own calc"
+},
+{
+"cycle": 2016,
+"kind": "Presidential",
+"state_poll_bias": 4.68,
+"generic_bias": 3.65,
+"source": "538 raw polls, own calc"
+},
+{
+"cycle": 2018,
+"kind": "Midterm",
+"state_poll_bias": -0.15,
+"generic_bias": -1.2,
+"source": "538 raw polls, own calc"
+},
+{
+"cycle": 2020,
+"kind": "Presidential",
+"state_poll_bias": 5.52,
+"generic_bias": 4.86,
+"source": "538 raw polls, own calc"
+},
+{
+"cycle": 2022,
+"kind": "Midterm",
+"state_poll_bias": 0.98,
+"generic_bias": 2.33,
+"source": "538 raw polls, own calc"
+},
+{
+"cycle": 2024,
+"kind": "Presidential",
+"state_poll_bias": 2.7,
+"generic_bias": null,
+"source": "538/ABC News review, competitive states"
+},
+{
+"cycle": 2025,
+"kind": "Off-year (NJ, VA governor)",
+"state_poll_bias": -7.4,
+"generic_bias": null,
+"source": "RealClearPolling averages vs results"
+}
+]

@@ -1,0 +1,416 @@
+[
+{
+"key": "nsim",
+"label": "Simulations",
+"value": 40000,
+"unit": "runs"
+},
+{
+"key": "cutoff",
+"label": "Poll cutoff",
+"value": "2026-11-02",
+"unit": "date"
+},
+{
+"key": "gb",
+"label": "Generic ballot average (two-party, after adjustments)",
+"value": 9.2,
+"unit": "pts D"
+},
+{
+"key": "gb_raw",
+"label": "Generic ballot average before adjustments",
+"value": 9.2,
+"unit": "pts D"
+},
+{
+"key": "gb_n",
+"label": "Generic ballot polls used",
+"value": 36,
+"unit": "polls"
+},
+{
+"key": "half_life",
+"label": "Recency half-life for averages",
+"value": 14.0,
+"unit": "days"
+},
+{
+"key": "info_half_life",
+"label": "Recency half-life for poll volume vs prior",
+"value": 30.0,
+"unit": "days"
+},
+{
+"key": "size_ref",
+"label": "Sample size giving weight 1",
+"value": 600,
+"unit": "respondents"
+},
+{
+"key": "size_cap",
+"label": "Sample size cap",
+"value": 2500,
+"unit": "respondents"
+},
+{
+"key": "w_rv",
+"label": "Weight of registered-voter polls",
+"value": 0.75,
+"unit": "x"
+},
+{
+"key": "w_a",
+"label": "Weight of all-adult polls",
+"value": 0.5,
+"unit": "x"
+},
+{
+"key": "lv_rv",
+"label": "Likely minus registered voter margin (paired versions)",
+"value": -0.59,
+"unit": "pts"
+},
+{
+"key": "lv_pairs",
+"label": "Paired LV/RV versions used",
+"value": 46,
+"unit": "pairs"
+},
+{
+"key": "q_slope",
+"label": "Quality weight = exp(-k x excess error), k",
+"value": 0.4,
+"unit": ""
+},
+{
+"key": "q_min",
+"label": "Quality weight floor",
+"value": 0.45,
+"unit": "x"
+},
+{
+"key": "q_max",
+"label": "Quality weight ceiling",
+"value": 1.6,
+"unit": "x"
+},
+{
+"key": "unknown_excess",
+"label": "Assumed excess error, no track record",
+"value": 0.8,
+"unit": "pts"
+},
+{
+"key": "sponsor_w",
+"label": "Weight of sponsored polls",
+"value": 0.5,
+"unit": "x"
+},
+{
+"key": "sponsor_d",
+"label": "Shift applied to Democratic-sponsored polls",
+"value": -3.6,
+"unit": "pts"
+},
+{
+"key": "sponsor_r",
+"label": "Shift applied to Republican-sponsored polls",
+"value": 4.6,
+"unit": "pts"
+},
+{
+"key": "he_shrink",
+"label": "House-effect shrinkage (n / (n + k)), k",
+"value": 4,
+"unit": "polls"
+},
+{
+"key": "beta",
+"label": "Actual vs poll-average margin slope",
+"value": 1.07,
+"unit": "x"
+},
+{
+"key": "state_rho",
+"label": "Persistence applied to state polling misses",
+"value": 0.25,
+"unit": "x"
+},
+{
+"key": "state_corr",
+"label": "Measured persistence of state misses (correlation)",
+"value": 0.28,
+"unit": ""
+},
+{
+"key": "state_cap",
+"label": "Cap on state adjustment",
+"value": 1.0,
+"unit": "pts"
+},
+{
+"key": "nat_sd",
+"label": "National polling-miss SD (shared by every race)",
+"value": 3.0,
+"unit": "pts"
+},
+{
+"key": "reg_sd",
+"label": "Regional error SD",
+"value": 1.8,
+"unit": "pts"
+},
+{
+"key": "state_sd",
+"label": "State error SD (shared by races in a state)",
+"value": 1.5,
+"unit": "pts"
+},
+{
+"key": "idio",
+"label": "Race-specific error SD, well-polled race",
+"value": 3.0,
+"unit": "pts"
+},
+{
+"key": "house_idio",
+"label": "District-specific error SD",
+"value": 5.0,
+"unit": "pts"
+},
+{
+"key": "t_df",
+"label": "Fat tails: Student t degrees of freedom",
+"value": 5,
+"unit": ""
+},
+{
+"key": "cycle_sd",
+"label": "Measured SD of national miss across cycles",
+"value": 2.77,
+"unit": "pts"
+},
+{
+"key": "comp_sd",
+"label": "Measured race-level miss SD, competitive races",
+"value": 4.1,
+"unit": "pts"
+},
+{
+"key": "sp_d_meas",
+"label": "Measured lean of Democratic-sponsored polls",
+"value": 3.6,
+"unit": "pts"
+},
+{
+"key": "sp_r_meas",
+"label": "Measured lean of Republican-sponsored polls",
+"value": 4.6,
+"unit": "pts"
+},
+{
+"key": "safe_d",
+"label": "House seats Safe D in every rating",
+"value": 182,
+"unit": "seats"
+},
+{
+"key": "safe_r",
+"label": "House seats Safe R in every rating",
+"value": 158,
+"unit": "seats"
+},
+{
+"key": "house_detail",
+"label": "House districts modelled one by one",
+"value": 95,
+"unit": "seats"
+},
+{
+"key": "sen_hold_d",
+"label": "Senate Democrats not up in 2026",
+"value": 32,
+"unit": "seats"
+},
+{
+"key": "sen_hold_r",
+"label": "Senate Republicans not up in 2026",
+"value": 31,
+"unit": "seats"
+},
+{
+"key": "sen_hold_i",
+"label": "Senate independents not up (Sanders, King)",
+"value": 2,
+"unit": "seats"
+},
+{
+"key": "gov_hold_d",
+"label": "Democratic governors not up",
+"value": 6,
+"unit": "seats"
+},
+{
+"key": "gov_hold_r",
+"label": "Republican governors not up",
+"value": 8,
+"unit": "seats"
+},
+{
+"key": "n_polls",
+"label": "Race polls in the database",
+"value": 675,
+"unit": "polls"
+},
+{
+"key": "n_pollsters",
+"label": "Pollsters in the database",
+"value": 143,
+"unit": "pollsters"
+},
+{
+"key": "w_sen_fund",
+"label": "Senate prior: weight on fundamentals",
+"value": 0.5,
+"unit": "x"
+},
+{
+"key": "w_gov_fund",
+"label": "Governor prior: weight on fundamentals",
+"value": 0.2,
+"unit": "x"
+},
+{
+"key": "k_sen",
+"label": "Senate prior strength (poll-weight units)",
+"value": 1.0,
+"unit": ""
+},
+{
+"key": "k_gov",
+"label": "Governor prior strength (poll-weight units)",
+"value": 0.6,
+"unit": ""
+},
+{
+"key": "w_house_fund",
+"label": "House: weight on fundamentals (rest on ratings)",
+"value": 0.5,
+"unit": "x"
+},
+{
+"key": "inc_sen",
+"label": "Incumbency, Senate and House",
+"value": 2.5,
+"unit": "pts"
+},
+{
+"key": "inc_gov",
+"label": "Incumbency, governor",
+"value": 4.0,
+"unit": "pts"
+},
+{
+"key": "hist_days",
+"label": "Window for historical accuracy",
+"value": 21,
+"unit": "days before election"
+},
+{
+"key": "hist_k",
+"label": "Shrinkage of pollster record (n / (n + k)), k",
+"value": 15,
+"unit": "polls"
+},
+{
+"key": "min_hist",
+"label": "Polls needed to use our own record",
+"value": 8,
+"unit": "polls"
+},
+{
+"key": "pen538",
+"label": "Penalty added to 538 rating when used",
+"value": 0.3,
+"unit": "pts"
+},
+{
+"key": "he_passes",
+"label": "House-effect passes",
+"value": 3,
+"unit": ""
+},
+{
+"key": "sen_needed",
+"label": "Senate seats for a majority",
+"value": 51,
+"unit": "seats"
+},
+{
+"key": "house_needed",
+"label": "House seats for a majority",
+"value": 218,
+"unit": "seats"
+},
+{
+"key": "gov_majority",
+"label": "Governorships for a majority",
+"value": 26,
+"unit": "seats"
+},
+{
+"key": "sen_total",
+"label": "Senate seats",
+"value": 100,
+"unit": "seats"
+},
+{
+"key": "sen_up",
+"label": "Senate seats up in 2026",
+"value": 35,
+"unit": "seats"
+},
+{
+"key": "gov_up",
+"label": "Governor races in 2026",
+"value": 36,
+"unit": "races"
+},
+{
+"key": "gov_notup",
+"label": "States without a 2026 governor race",
+"value": 14,
+"unit": "states"
+},
+{
+"key": "house_total",
+"label": "House seats",
+"value": 435,
+"unit": "seats"
+},
+{
+"key": "house_vacant",
+"label": "Vacant House seats today",
+"value": 2,
+"unit": "seats"
+},
+{
+"key": "pseudo_n",
+"label": "Governor races with aggregate averages only",
+"value": 12,
+"unit": "races"
+},
+{
+"key": "w_gov_rate",
+"label": "Governor prior: weight on ratings",
+"value": 0.8,
+"unit": "x"
+},
+{
+"key": "w_sen_rate",
+"label": "Senate prior: weight on ratings",
+"value": 0.5,
+"unit": "x"
+}
+]

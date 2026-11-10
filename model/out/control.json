@@ -1,0 +1,56 @@
+[
+{
+"chamber": "senate",
+"outcome": "D",
+"label": "Democrats control (with Sanders and King)",
+"prob": 0.765
+},
+{
+"chamber": "senate",
+"outcome": "R",
+"label": "Republicans control (50 seats plus VP Vance)",
+"prob": 0.218
+},
+{
+"chamber": "senate",
+"outcome": "other",
+"label": "Majority depends on newly elected independents",
+"prob": 0.017
+},
+{
+"chamber": "house",
+"outcome": "D",
+"label": "Democrats win 218+",
+"prob": 0.894
+},
+{
+"chamber": "house",
+"outcome": "R",
+"label": "Republicans win 218+",
+"prob": 0.104
+},
+{
+"chamber": "house",
+"outcome": "other",
+"label": "No party reaches 218",
+"prob": 0.002
+},
+{
+"chamber": "governors",
+"outcome": "D",
+"label": "Democrats hold 26+ governorships",
+"prob": 0.811
+},
+{
+"chamber": "governors",
+"outcome": "R",
+"label": "Republicans hold 26+ governorships",
+"prob": 0.117
+},
+{
+"chamber": "governors",
+"outcome": "other",
+"label": "25-25 split",
+"prob": 0.072
+}
+]

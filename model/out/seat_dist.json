@@ -1,0 +1,740 @@
+[
+{
+"chamber": "senate",
+"seats": 40,
+"prob": 0.0001,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 41,
+"prob": 0.0003,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 42,
+"prob": 0.0017,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 43,
+"prob": 0.0055,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 44,
+"prob": 0.0138,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 45,
+"prob": 0.024,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 46,
+"prob": 0.0405,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 47,
+"prob": 0.0624,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 48,
+"prob": 0.0868,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 49,
+"prob": 0.1158,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 50,
+"prob": 0.1462,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 51,
+"prob": 0.1708,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 52,
+"prob": 0.1651,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 53,
+"prob": 0.1154,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 54,
+"prob": 0.04,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 55,
+"prob": 0.0094,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 56,
+"prob": 0.0018,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 57,
+"prob": 0.0004,
+"threshold": 49
+},
+{
+"chamber": "senate",
+"seats": 58,
+"prob": 0.0,
+"threshold": 49
+},
+{
+"chamber": "house",
+"seats": 191,
+"prob": 0.0,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 193,
+"prob": 0.0001,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 194,
+"prob": 0.0,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 195,
+"prob": 0.0,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 196,
+"prob": 0.0001,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 197,
+"prob": 0.0002,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 198,
+"prob": 0.0001,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 199,
+"prob": 0.0003,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 200,
+"prob": 0.0005,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 201,
+"prob": 0.0008,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 202,
+"prob": 0.0009,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 203,
+"prob": 0.0014,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 204,
+"prob": 0.0012,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 205,
+"prob": 0.0022,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 206,
+"prob": 0.0021,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 207,
+"prob": 0.0024,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 208,
+"prob": 0.004,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 209,
+"prob": 0.0044,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 210,
+"prob": 0.0054,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 211,
+"prob": 0.0073,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 212,
+"prob": 0.0084,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 213,
+"prob": 0.0099,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 214,
+"prob": 0.0114,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 215,
+"prob": 0.0122,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 216,
+"prob": 0.015,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 217,
+"prob": 0.0154,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 218,
+"prob": 0.0177,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 219,
+"prob": 0.0208,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 220,
+"prob": 0.0233,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 221,
+"prob": 0.022,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 222,
+"prob": 0.0261,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 223,
+"prob": 0.0283,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 224,
+"prob": 0.0288,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 225,
+"prob": 0.0305,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 226,
+"prob": 0.0309,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 227,
+"prob": 0.0323,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 228,
+"prob": 0.036,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 229,
+"prob": 0.0347,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 230,
+"prob": 0.0365,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 231,
+"prob": 0.0356,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 232,
+"prob": 0.0358,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 233,
+"prob": 0.0368,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 234,
+"prob": 0.0354,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 235,
+"prob": 0.0331,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 236,
+"prob": 0.0326,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 237,
+"prob": 0.0327,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 238,
+"prob": 0.0289,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 239,
+"prob": 0.0282,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 240,
+"prob": 0.0272,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 241,
+"prob": 0.0235,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 242,
+"prob": 0.0228,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 243,
+"prob": 0.0204,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 244,
+"prob": 0.0182,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 245,
+"prob": 0.0164,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 246,
+"prob": 0.0151,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 247,
+"prob": 0.0132,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 248,
+"prob": 0.0111,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 249,
+"prob": 0.0099,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 250,
+"prob": 0.0092,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 251,
+"prob": 0.0075,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 252,
+"prob": 0.0061,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 253,
+"prob": 0.0054,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 254,
+"prob": 0.004,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 255,
+"prob": 0.0035,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 256,
+"prob": 0.0026,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 257,
+"prob": 0.0026,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 258,
+"prob": 0.0021,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 259,
+"prob": 0.0014,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 260,
+"prob": 0.0014,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 261,
+"prob": 0.001,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 262,
+"prob": 0.0009,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 263,
+"prob": 0.0005,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 264,
+"prob": 0.0003,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 265,
+"prob": 0.0003,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 266,
+"prob": 0.0002,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 267,
+"prob": 0.0002,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 268,
+"prob": 0.0001,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 269,
+"prob": 0.0,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 271,
+"prob": 0.0,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 272,
+"prob": 0.0,
+"threshold": 218
+},
+{
+"chamber": "house",
+"seats": 273,
+"prob": 0.0,
+"threshold": 218
+},
+{
+"chamber": "governors",
+"seats": 16,
+"prob": 0.0001,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 17,
+"prob": 0.0003,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 18,
+"prob": 0.0008,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 19,
+"prob": 0.0024,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 20,
+"prob": 0.005,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 21,
+"prob": 0.0096,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 22,
+"prob": 0.018,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 23,
+"prob": 0.0319,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 24,
+"prob": 0.0489,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 25,
+"prob": 0.0724,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 26,
+"prob": 0.0946,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 27,
+"prob": 0.1225,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 28,
+"prob": 0.1396,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 29,
+"prob": 0.1399,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 30,
+"prob": 0.127,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 31,
+"prob": 0.0946,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 32,
+"prob": 0.0547,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 33,
+"prob": 0.0241,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 34,
+"prob": 0.0093,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 35,
+"prob": 0.0032,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 36,
+"prob": 0.0008,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 37,
+"prob": 0.0002,
+"threshold": 26
+},
+{
+"chamber": "governors",
+"seats": 38,
+"prob": 0.0,
+"threshold": 26
+}
+]
